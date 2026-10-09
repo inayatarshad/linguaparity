@@ -1,0 +1,38 @@
+{
+ "en": {
+  "articles": 7250069,
+  "name": "English",
+  "nllb": "eng_Latn",
+  "joshi": 5
+ },
+ "tr": {
+  "articles": 702205,
+  "name": "Turkish",
+  "nllb": "tur_Latn",
+  "joshi": 4
+ },
+ "ur": {
+  "articles": 704932,
+  "name": "Urdu",
+  "nllb": "urd_Arab",
+  "joshi": 3
+ },
+ "sw": {
+  "articles": 130446,
+  "name": "Swahili",
+  "nllb": "swh_Latn",
+  "joshi": 2
+ },
+ "yo": {
+  "articles": 41357,
+  "name": "Yoruba",
+  "nllb": "yor_Latn",
+  "joshi": 2
+ },
+ "am": {
+  "articles": 15733,
+  "name": "Amharic",
+  "nllb": "amh_Ethi",
+  "joshi": 2
+ }
+}

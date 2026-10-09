@@ -1,0 +1,1730 @@
+[
+ {
+  "id": "DS01",
+  "domain": "digital_safety",
+  "lang": "en",
+  "title": "Phishing",
+  "exists": true,
+  "bytes": 59385,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS01",
+  "domain": "digital_safety",
+  "lang": "tr",
+  "title": "Yemleme",
+  "exists": true,
+  "bytes": 4625,
+  "bytes_ratio_to_en": 0.0778816199376947
+ },
+ {
+  "id": "DS01",
+  "domain": "digital_safety",
+  "lang": "ur",
+  "title": "فشنگ",
+  "exists": true,
+  "bytes": 3876,
+  "bytes_ratio_to_en": 0.06526900732508209
+ },
+ {
+  "id": "DS01",
+  "domain": "digital_safety",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS01",
+  "domain": "digital_safety",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS01",
+  "domain": "digital_safety",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS02",
+  "domain": "digital_safety",
+  "lang": "en",
+  "title": "Multi-factor authentication",
+  "exists": true,
+  "bytes": 54468,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS02",
+  "domain": "digital_safety",
+  "lang": "tr",
+  "title": "Çok aşamalı kimlik doğrulama",
+  "exists": true,
+  "bytes": 16892,
+  "bytes_ratio_to_en": 0.3101270470735111
+ },
+ {
+  "id": "DS02",
+  "domain": "digital_safety",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS02",
+  "domain": "digital_safety",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS02",
+  "domain": "digital_safety",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS02",
+  "domain": "digital_safety",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS03",
+  "domain": "digital_safety",
+  "lang": "en",
+  "title": "Ransomware",
+  "exists": true,
+  "bytes": 111509,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS03",
+  "domain": "digital_safety",
+  "lang": "tr",
+  "title": "Fidye virüsü",
+  "exists": true,
+  "bytes": 78948,
+  "bytes_ratio_to_en": 0.7079966639464079
+ },
+ {
+  "id": "DS03",
+  "domain": "digital_safety",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS03",
+  "domain": "digital_safety",
+  "lang": "sw",
+  "title": "Programufidia",
+  "exists": true,
+  "bytes": 2434,
+  "bytes_ratio_to_en": 0.021827834524567522
+ },
+ {
+  "id": "DS03",
+  "domain": "digital_safety",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS03",
+  "domain": "digital_safety",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS04",
+  "domain": "digital_safety",
+  "lang": "en",
+  "title": "Malware",
+  "exists": true,
+  "bytes": 75462,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS04",
+  "domain": "digital_safety",
+  "lang": "tr",
+  "title": "Malware",
+  "exists": true,
+  "bytes": 62493,
+  "bytes_ratio_to_en": 0.8281386658185577
+ },
+ {
+  "id": "DS04",
+  "domain": "digital_safety",
+  "lang": "ur",
+  "title": "مالویئر",
+  "exists": true,
+  "bytes": 3781,
+  "bytes_ratio_to_en": 0.05010468845246614
+ },
+ {
+  "id": "DS04",
+  "domain": "digital_safety",
+  "lang": "sw",
+  "title": "Programu hasidi",
+  "exists": true,
+  "bytes": 1661,
+  "bytes_ratio_to_en": 0.02201107842357743
+ },
+ {
+  "id": "DS04",
+  "domain": "digital_safety",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS04",
+  "domain": "digital_safety",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS05",
+  "domain": "digital_safety",
+  "lang": "en",
+  "title": "Identity theft",
+  "exists": true,
+  "bytes": 73560,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS05",
+  "domain": "digital_safety",
+  "lang": "tr",
+  "title": "Kimlik hırsızlığı",
+  "exists": true,
+  "bytes": 3140,
+  "bytes_ratio_to_en": 0.04268624252311039
+ },
+ {
+  "id": "DS05",
+  "domain": "digital_safety",
+  "lang": "ur",
+  "title": "شناخت کی چوری",
+  "exists": true,
+  "bytes": 4609,
+  "bytes_ratio_to_en": 0.0626563349646547
+ },
+ {
+  "id": "DS05",
+  "domain": "digital_safety",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS05",
+  "domain": "digital_safety",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS05",
+  "domain": "digital_safety",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS06",
+  "domain": "digital_safety",
+  "lang": "en",
+  "title": "Cyberbullying",
+  "exists": true,
+  "bytes": 143550,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS06",
+  "domain": "digital_safety",
+  "lang": "tr",
+  "title": "Siber zorbalık",
+  "exists": true,
+  "bytes": 5946,
+  "bytes_ratio_to_en": 0.04142110762800418
+ },
+ {
+  "id": "DS06",
+  "domain": "digital_safety",
+  "lang": "ur",
+  "title": "سائبر ہراسانی",
+  "exists": true,
+  "bytes": 3229,
+  "bytes_ratio_to_en": 0.02249390456287008
+ },
+ {
+  "id": "DS06",
+  "domain": "digital_safety",
+  "lang": "sw",
+  "title": "Udhalilishaji wa kimtandao",
+  "exists": true,
+  "bytes": 2619,
+  "bytes_ratio_to_en": 0.018244514106583072
+ },
+ {
+  "id": "DS06",
+  "domain": "digital_safety",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS06",
+  "domain": "digital_safety",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS07",
+  "domain": "digital_safety",
+  "lang": "en",
+  "title": "Password strength",
+  "exists": true,
+  "bytes": 64238,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS07",
+  "domain": "digital_safety",
+  "lang": "tr",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS07",
+  "domain": "digital_safety",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS07",
+  "domain": "digital_safety",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS07",
+  "domain": "digital_safety",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS07",
+  "domain": "digital_safety",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS08",
+  "domain": "digital_safety",
+  "lang": "en",
+  "title": "Advance-fee scam",
+  "exists": true,
+  "bytes": 92737,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS08",
+  "domain": "digital_safety",
+  "lang": "tr",
+  "title": "Ön ödeme dolandırıcılığı",
+  "exists": true,
+  "bytes": 12431,
+  "bytes_ratio_to_en": 0.13404574226037072
+ },
+ {
+  "id": "DS08",
+  "domain": "digital_safety",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS08",
+  "domain": "digital_safety",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS08",
+  "domain": "digital_safety",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS08",
+  "domain": "digital_safety",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED01",
+  "domain": "education",
+  "lang": "en",
+  "title": "Scholarship",
+  "exists": true,
+  "bytes": 27905,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED01",
+  "domain": "education",
+  "lang": "tr",
+  "title": "Burs",
+  "exists": true,
+  "bytes": 1130,
+  "bytes_ratio_to_en": 0.04049453502956459
+ },
+ {
+  "id": "ED01",
+  "domain": "education",
+  "lang": "ur",
+  "title": "تعلیمی وظیفہ",
+  "exists": true,
+  "bytes": 574,
+  "bytes_ratio_to_en": 0.02056979036015051
+ },
+ {
+  "id": "ED01",
+  "domain": "education",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED01",
+  "domain": "education",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED01",
+  "domain": "education",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED02",
+  "domain": "education",
+  "lang": "en",
+  "title": "Distance education",
+  "exists": true,
+  "bytes": 88636,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED02",
+  "domain": "education",
+  "lang": "tr",
+  "title": "Uzaktan eğitim",
+  "exists": true,
+  "bytes": 6653,
+  "bytes_ratio_to_en": 0.07505979511710817
+ },
+ {
+  "id": "ED02",
+  "domain": "education",
+  "lang": "ur",
+  "title": "فاصلاتی تعلیم",
+  "exists": true,
+  "bytes": 3420,
+  "bytes_ratio_to_en": 0.03858477368112279
+ },
+ {
+  "id": "ED02",
+  "domain": "education",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED02",
+  "domain": "education",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED02",
+  "domain": "education",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED03",
+  "domain": "education",
+  "lang": "en",
+  "title": "Literacy",
+  "exists": true,
+  "bytes": 187099,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED03",
+  "domain": "education",
+  "lang": "tr",
+  "title": "Okuryazarlık",
+  "exists": true,
+  "bytes": 10116,
+  "bytes_ratio_to_en": 0.05406763264368062
+ },
+ {
+  "id": "ED03",
+  "domain": "education",
+  "lang": "ur",
+  "title": "خواندگی",
+  "exists": true,
+  "bytes": 2761,
+  "bytes_ratio_to_en": 0.014756893409371509
+ },
+ {
+  "id": "ED03",
+  "domain": "education",
+  "lang": "sw",
+  "title": "Uwezo wa kusoma na kuandika",
+  "exists": true,
+  "bytes": 1562,
+  "bytes_ratio_to_en": 0.008348521371038862
+ },
+ {
+  "id": "ED03",
+  "domain": "education",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED03",
+  "domain": "education",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED04",
+  "domain": "education",
+  "lang": "en",
+  "title": "Vocational education",
+  "exists": true,
+  "bytes": 129960,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED04",
+  "domain": "education",
+  "lang": "tr",
+  "title": "Meslekî eğitim",
+  "exists": true,
+  "bytes": 12726,
+  "bytes_ratio_to_en": 0.09792243767313019
+ },
+ {
+  "id": "ED04",
+  "domain": "education",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED04",
+  "domain": "education",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED04",
+  "domain": "education",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED04",
+  "domain": "education",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED05",
+  "domain": "education",
+  "lang": "en",
+  "title": "Student loan",
+  "exists": true,
+  "bytes": 37936,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED05",
+  "domain": "education",
+  "lang": "tr",
+  "title": "Öğrenci kredisi",
+  "exists": true,
+  "bytes": 13831,
+  "bytes_ratio_to_en": 0.3645877266975959
+ },
+ {
+  "id": "ED05",
+  "domain": "education",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED05",
+  "domain": "education",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED05",
+  "domain": "education",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED05",
+  "domain": "education",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED06",
+  "domain": "education",
+  "lang": "en",
+  "title": "Compulsory education",
+  "exists": true,
+  "bytes": 65596,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED06",
+  "domain": "education",
+  "lang": "tr",
+  "title": "Öğrenim çağı",
+  "exists": true,
+  "bytes": 696,
+  "bytes_ratio_to_en": 0.010610403073358131
+ },
+ {
+  "id": "ED06",
+  "domain": "education",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED06",
+  "domain": "education",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED06",
+  "domain": "education",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED06",
+  "domain": "education",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED07",
+  "domain": "education",
+  "lang": "en",
+  "title": "Bachelor's degree",
+  "exists": true,
+  "bytes": 124762,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED07",
+  "domain": "education",
+  "lang": "tr",
+  "title": "Lisans derecesi",
+  "exists": true,
+  "bytes": 5093,
+  "bytes_ratio_to_en": 0.040821724563569035
+ },
+ {
+  "id": "ED07",
+  "domain": "education",
+  "lang": "ur",
+  "title": "بیچلر کی ڈگری",
+  "exists": true,
+  "bytes": 2362,
+  "bytes_ratio_to_en": 0.01893204661675831
+ },
+ {
+  "id": "ED07",
+  "domain": "education",
+  "lang": "sw",
+  "title": "Shahada ya Awali",
+  "exists": true,
+  "bytes": 984,
+  "bytes_ratio_to_en": 0.007887016880139786
+ },
+ {
+  "id": "ED07",
+  "domain": "education",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED07",
+  "domain": "education",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED08",
+  "domain": "education",
+  "lang": "en",
+  "title": "Homeschooling",
+  "exists": true,
+  "bytes": 91093,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED08",
+  "domain": "education",
+  "lang": "tr",
+  "title": "Evokulluluk",
+  "exists": true,
+  "bytes": 3711,
+  "bytes_ratio_to_en": 0.04073858584084397
+ },
+ {
+  "id": "ED08",
+  "domain": "education",
+  "lang": "ur",
+  "title": "گھریلو درس",
+  "exists": true,
+  "bytes": 4007,
+  "bytes_ratio_to_en": 0.04398801225121579
+ },
+ {
+  "id": "ED08",
+  "domain": "education",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED08",
+  "domain": "education",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED08",
+  "domain": "education",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM01",
+  "domain": "employment",
+  "lang": "en",
+  "title": "Minimum wage",
+  "exists": true,
+  "bytes": 155958,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM01",
+  "domain": "employment",
+  "lang": "tr",
+  "title": "Asgari ücret",
+  "exists": true,
+  "bytes": 9394,
+  "bytes_ratio_to_en": 0.06023416560868952
+ },
+ {
+  "id": "EM01",
+  "domain": "employment",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM01",
+  "domain": "employment",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM01",
+  "domain": "employment",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM01",
+  "domain": "employment",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM02",
+  "domain": "employment",
+  "lang": "en",
+  "title": "Unemployment benefits",
+  "exists": true,
+  "bytes": 98931,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM02",
+  "domain": "employment",
+  "lang": "tr",
+  "title": "İşsizlik sigortası",
+  "exists": true,
+  "bytes": 2812,
+  "bytes_ratio_to_en": 0.02842385096683547
+ },
+ {
+  "id": "EM02",
+  "domain": "employment",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM02",
+  "domain": "employment",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM02",
+  "domain": "employment",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM02",
+  "domain": "employment",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM03",
+  "domain": "employment",
+  "lang": "en",
+  "title": "Trade union",
+  "exists": true,
+  "bytes": 86945,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM03",
+  "domain": "employment",
+  "lang": "tr",
+  "title": "İşçi sendikası",
+  "exists": true,
+  "bytes": 1158,
+  "bytes_ratio_to_en": 0.013318764736327563
+ },
+ {
+  "id": "EM03",
+  "domain": "employment",
+  "lang": "ur",
+  "title": "انجمن مزدوراں",
+  "exists": true,
+  "bytes": 1802,
+  "bytes_ratio_to_en": 0.020725746161366382
+ },
+ {
+  "id": "EM03",
+  "domain": "employment",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM03",
+  "domain": "employment",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM03",
+  "domain": "employment",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM04",
+  "domain": "employment",
+  "lang": "en",
+  "title": "Résumé",
+  "exists": true,
+  "bytes": 22428,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM04",
+  "domain": "employment",
+  "lang": "tr",
+  "title": "Öz geçmiş",
+  "exists": true,
+  "bytes": 3066,
+  "bytes_ratio_to_en": 0.13670411985018727
+ },
+ {
+  "id": "EM04",
+  "domain": "employment",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM04",
+  "domain": "employment",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM04",
+  "domain": "employment",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM04",
+  "domain": "employment",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM05",
+  "domain": "employment",
+  "lang": "en",
+  "title": "Employment contract",
+  "exists": true,
+  "bytes": 26970,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM05",
+  "domain": "employment",
+  "lang": "tr",
+  "title": "İş sözleşmesi",
+  "exists": true,
+  "bytes": 3125,
+  "bytes_ratio_to_en": 0.11586948461253245
+ },
+ {
+  "id": "EM05",
+  "domain": "employment",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM05",
+  "domain": "employment",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM05",
+  "domain": "employment",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM05",
+  "domain": "employment",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM06",
+  "domain": "employment",
+  "lang": "en",
+  "title": "Child labour",
+  "exists": true,
+  "bytes": 163118,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM06",
+  "domain": "employment",
+  "lang": "tr",
+  "title": "Çocuk işçi",
+  "exists": true,
+  "bytes": 5756,
+  "bytes_ratio_to_en": 0.03528733800071114
+ },
+ {
+  "id": "EM06",
+  "domain": "employment",
+  "lang": "ur",
+  "title": "بچہ مزدوری",
+  "exists": true,
+  "bytes": 5712,
+  "bytes_ratio_to_en": 0.03501759462475018
+ },
+ {
+  "id": "EM06",
+  "domain": "employment",
+  "lang": "sw",
+  "title": "Ajira kwa watoto",
+  "exists": true,
+  "bytes": 6732,
+  "bytes_ratio_to_en": 0.041270736522027
+ },
+ {
+  "id": "EM06",
+  "domain": "employment",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM06",
+  "domain": "employment",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM07",
+  "domain": "employment",
+  "lang": "en",
+  "title": "Occupational safety and health",
+  "exists": true,
+  "bytes": 219989,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM07",
+  "domain": "employment",
+  "lang": "tr",
+  "title": "İş sağlığı ve güvenliği",
+  "exists": true,
+  "bytes": 17144,
+  "bytes_ratio_to_en": 0.07793116928573701
+ },
+ {
+  "id": "EM07",
+  "domain": "employment",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM07",
+  "domain": "employment",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM07",
+  "domain": "employment",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM07",
+  "domain": "employment",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM08",
+  "domain": "employment",
+  "lang": "en",
+  "title": "Pension",
+  "exists": true,
+  "bytes": 87509,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM08",
+  "domain": "employment",
+  "lang": "tr",
+  "title": "Emekli maaşı",
+  "exists": true,
+  "bytes": 1244,
+  "bytes_ratio_to_en": 0.01421568067284508
+ },
+ {
+  "id": "EM08",
+  "domain": "employment",
+  "lang": "ur",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM08",
+  "domain": "employment",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM08",
+  "domain": "employment",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "EM08",
+  "domain": "employment",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS01",
+  "domain": "public_services",
+  "lang": "en",
+  "title": "Passport",
+  "exists": true,
+  "bytes": 104632,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS01",
+  "domain": "public_services",
+  "lang": "tr",
+  "title": "Pasaport",
+  "exists": true,
+  "bytes": 9938,
+  "bytes_ratio_to_en": 0.09498050309656701
+ },
+ {
+  "id": "PS01",
+  "domain": "public_services",
+  "lang": "ur",
+  "title": "پاسپورٹ",
+  "exists": true,
+  "bytes": 10177,
+  "bytes_ratio_to_en": 0.09726469913601957
+ },
+ {
+  "id": "PS01",
+  "domain": "public_services",
+  "lang": "sw",
+  "title": "Pasipoti",
+  "exists": true,
+  "bytes": 859,
+  "bytes_ratio_to_en": 0.008209725514183041
+ },
+ {
+  "id": "PS01",
+  "domain": "public_services",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS01",
+  "domain": "public_services",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS02",
+  "domain": "public_services",
+  "lang": "en",
+  "title": "Birth certificate",
+  "exists": true,
+  "bytes": 108801,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS02",
+  "domain": "public_services",
+  "lang": "tr",
+  "title": "Doğum belgesi",
+  "exists": true,
+  "bytes": 5170,
+  "bytes_ratio_to_en": 0.047517945607117584
+ },
+ {
+  "id": "PS02",
+  "domain": "public_services",
+  "lang": "ur",
+  "title": "سند ولادت",
+  "exists": true,
+  "bytes": 13249,
+  "bytes_ratio_to_en": 0.12177277782373323
+ },
+ {
+  "id": "PS02",
+  "domain": "public_services",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS02",
+  "domain": "public_services",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS02",
+  "domain": "public_services",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS03",
+  "domain": "public_services",
+  "lang": "en",
+  "title": "Vaccination",
+  "exists": true,
+  "bytes": 100545,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS03",
+  "domain": "public_services",
+  "lang": "tr",
+  "title": "Aşılama",
+  "exists": true,
+  "bytes": 103240,
+  "bytes_ratio_to_en": 1.0268039186433935
+ },
+ {
+  "id": "PS03",
+  "domain": "public_services",
+  "lang": "ur",
+  "title": "جدرین کاری",
+  "exists": true,
+  "bytes": 3905,
+  "bytes_ratio_to_en": 0.038838331095529366
+ },
+ {
+  "id": "PS03",
+  "domain": "public_services",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS03",
+  "domain": "public_services",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS03",
+  "domain": "public_services",
+  "lang": "am",
+  "title": "ክትባት",
+  "exists": true,
+  "bytes": 608,
+  "bytes_ratio_to_en": 0.006047043612312895
+ },
+ {
+  "id": "PS04",
+  "domain": "public_services",
+  "lang": "en",
+  "title": "Identity document",
+  "exists": true,
+  "bytes": 196711,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS04",
+  "domain": "public_services",
+  "lang": "tr",
+  "title": "Kimlik belgesi",
+  "exists": true,
+  "bytes": 715,
+  "bytes_ratio_to_en": 0.0036347738560629553
+ },
+ {
+  "id": "PS04",
+  "domain": "public_services",
+  "lang": "ur",
+  "title": "شناختی دستاویز",
+  "exists": true,
+  "bytes": 4483,
+  "bytes_ratio_to_en": 0.022789777897524795
+ },
+ {
+  "id": "PS04",
+  "domain": "public_services",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS04",
+  "domain": "public_services",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS04",
+  "domain": "public_services",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS05",
+  "domain": "public_services",
+  "lang": "en",
+  "title": "Welfare spending",
+  "exists": true,
+  "bytes": 102695,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS05",
+  "domain": "public_services",
+  "lang": "tr",
+  "title": "Sosyal güvence",
+  "exists": true,
+  "bytes": 2931,
+  "bytes_ratio_to_en": 0.028540824772384246
+ },
+ {
+  "id": "PS05",
+  "domain": "public_services",
+  "lang": "ur",
+  "title": "بہبود",
+  "exists": true,
+  "bytes": 2273,
+  "bytes_ratio_to_en": 0.022133502117922
+ },
+ {
+  "id": "PS05",
+  "domain": "public_services",
+  "lang": "sw",
+  "title": "Ustawi wa Jamii",
+  "exists": true,
+  "bytes": 3140,
+  "bytes_ratio_to_en": 0.03057597740883198
+ },
+ {
+  "id": "PS05",
+  "domain": "public_services",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS05",
+  "domain": "public_services",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS06",
+  "domain": "public_services",
+  "lang": "en",
+  "title": "Universal health care",
+  "exists": true,
+  "bytes": 67294,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS06",
+  "domain": "public_services",
+  "lang": "tr",
+  "title": "Evrensel sağlık hizmeti",
+  "exists": true,
+  "bytes": 1841,
+  "bytes_ratio_to_en": 0.027357565310428864
+ },
+ {
+  "id": "PS06",
+  "domain": "public_services",
+  "lang": "ur",
+  "title": "عالمی صحت کی نگہداشت",
+  "exists": true,
+  "bytes": 3553,
+  "bytes_ratio_to_en": 0.05279816922756858
+ },
+ {
+  "id": "PS06",
+  "domain": "public_services",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS06",
+  "domain": "public_services",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS06",
+  "domain": "public_services",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS07",
+  "domain": "public_services",
+  "lang": "en",
+  "title": "Voter registration",
+  "exists": true,
+  "bytes": 43375,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS07",
+  "domain": "public_services",
+  "lang": "tr",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS07",
+  "domain": "public_services",
+  "lang": "ur",
+  "title": "رائے دہندوں کا اندراج",
+  "exists": true,
+  "bytes": 1894,
+  "bytes_ratio_to_en": 0.0436657060518732
+ },
+ {
+  "id": "PS07",
+  "domain": "public_services",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS07",
+  "domain": "public_services",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS07",
+  "domain": "public_services",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS08",
+  "domain": "public_services",
+  "lang": "en",
+  "title": "Income tax",
+  "exists": true,
+  "bytes": 48449,
+  "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS08",
+  "domain": "public_services",
+  "lang": "tr",
+  "title": "Gelir vergisi",
+  "exists": true,
+  "bytes": 784,
+  "bytes_ratio_to_en": 0.016181964540031787
+ },
+ {
+  "id": "PS08",
+  "domain": "public_services",
+  "lang": "ur",
+  "title": "محصول آمدنی",
+  "exists": true,
+  "bytes": 3579,
+  "bytes_ratio_to_en": 0.07387149373568082
+ },
+ {
+  "id": "PS08",
+  "domain": "public_services",
+  "lang": "sw",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS08",
+  "domain": "public_services",
+  "lang": "yo",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS08",
+  "domain": "public_services",
+  "lang": "am",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ }
+]
