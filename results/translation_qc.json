@@ -1,0 +1,22 @@
+{
+ "tr": {
+  "labse_en_vs_l": 0.8993907570838928,
+  "labse_en_vs_backtranslation": 0.9558820128440857
+ },
+ "ur": {
+  "labse_en_vs_l": 0.892841637134552,
+  "labse_en_vs_backtranslation": 0.9600757956504822
+ },
+ "sw": {
+  "labse_en_vs_l": 0.8784942626953125,
+  "labse_en_vs_backtranslation": 0.9046416282653809
+ },
+ "yo": {
+  "labse_en_vs_l": 0.7782740592956543,
+  "labse_en_vs_backtranslation": 0.8139550685882568
+ },
+ "am": {
+  "labse_en_vs_l": 0.8502730131149292,
+  "labse_en_vs_backtranslation": 0.9005697965621948
+ }
+}

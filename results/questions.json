@@ -1,0 +1,834 @@
+{
+ "DS01": {
+  "en": {
+   "q": "What is phishing and what do attackers try to get from people?",
+   "bt": "What is phishing and what do attackers try to get from people?"
+  },
+  "tr": {
+   "q": "Phishing nedir ve saldırganlar insanlardan ne elde etmeye çalışırlar?",
+   "bt": "What is phishing, and what do attackers try to get from people?"
+  },
+  "ur": {
+   "q": "فشنگ کیا ہے اور حملہ آور لوگوں سے کیا حاصل کرنے کی کوشش کرتے ہیں؟",
+   "bt": "What is fishing and what do attackers try to get from people?"
+  },
+  "sw": {
+   "q": "Ufisadi ni nini na wahasiriwa hujaribu kupata nini kutoka kwa watu?",
+   "bt": "What is corruption, and what do victims try to gain from people?"
+  },
+  "yo": {
+   "q": "Kí ni fíìṣì àti ohun tí àwọn tó ń ṣenúnibíni sí wọn ń gbìyànjú láti rí gbà lọ́wọ́ àwọn èèyàn?",
+   "bt": "What are the exploits and exploits of the poor?"
+  },
+  "am": {
+   "q": "ፊሽንግ ምንድን ነው? ጥቃት ፈላጊዎች ከሰዎች ምን ለማግኘት ይሞክራሉ?",
+   "bt": "What is fishing, and what do attackers try to get from people?"
+  }
+ },
+ "DS02": {
+  "en": {
+   "q": "What is two-factor authentication and why is it useful?",
+   "bt": "What is two-factor authentication and why is it useful?"
+  },
+  "tr": {
+   "q": "İki faktörlü kimlik doğrulama nedir ve neden yararlıdır?",
+   "bt": "What is two-factor authentication, and why is it useful?"
+  },
+  "ur": {
+   "q": "دو عنصر کی تصدیق کیا ہے اور یہ کیوں مفید ہے؟",
+   "bt": "What is two-factor authentication, and why is it helpful?"
+  },
+  "sw": {
+   "q": "Uthibitisho wa mambo mawili ni nini, na kwa nini ni muhimu?",
+   "bt": "What is the evidence of two things, and why is it important?"
+  },
+  "yo": {
+   "q": "Kí ni ìtumọ̀ ẹ̀rí méjì, kí sì nìdí tó fi wúlò?",
+   "bt": "What is the meaning of two witnesses, and why is it useful?"
+  },
+  "am": {
+   "q": "የሁለት-አካላዊ ማረጋገጫ ምንድን ነው? ጠቃሚ የሆነው ለምንድን ነው?",
+   "bt": "What is a two-body affirmation, and why is it helpful?"
+  }
+ },
+ "DS03": {
+  "en": {
+   "q": "What is ransomware and how does it harm victims?",
+   "bt": "What is ransomware and how does it harm victims?"
+  },
+  "tr": {
+   "q": "Ransomware nedir ve kurbanlara nasıl zarar verir?",
+   "bt": "What is ransomware and how does it harm victims?"
+  },
+  "ur": {
+   "q": "رینسمویر کیا ہے اور یہ متاثرین کو کس طرح نقصان پہنچاتا ہے؟",
+   "bt": "What is ransomware and how does it harm victims?"
+  },
+  "sw": {
+   "q": "Programu ya kukomboa ni nini na inawaumizaje waathiriwa?",
+   "bt": "What is the ransom program, and how does it affect victims?"
+  },
+  "yo": {
+   "q": "Kí ni ransomware, báwo ló sì ṣe máa ń ṣe àwọn tó bá pàdánù ẹ̀mí wọn léṣe?",
+   "bt": "What is ransomware, and how does it harm those who lose their lives?"
+  },
+  "am": {
+   "q": "የቤዛ ማመንጫ ሶፍትዌር ምንድን ነው?",
+   "bt": "What is the ransom software?"
+  }
+ },
+ "DS04": {
+  "en": {
+   "q": "What is malware?",
+   "bt": "What is malware?"
+  },
+  "tr": {
+   "q": "Malware nedir?",
+   "bt": "What is malware?"
+  },
+  "ur": {
+   "q": "میلویئر کیا ہے؟",
+   "bt": "What is malware?"
+  },
+  "sw": {
+   "q": "Programu zisizo za asili ni nini?",
+   "bt": "What are unnatural programs?"
+  },
+  "yo": {
+   "q": "Kí ni malware?",
+   "bt": "What is malware?"
+  },
+  "am": {
+   "q": "ማልዌር ምንድን ነው?",
+   "bt": "What is malware?"
+  }
+ },
+ "DS05": {
+  "en": {
+   "q": "What is identity theft?",
+   "bt": "What is identity theft?"
+  },
+  "tr": {
+   "q": "Kimlik hırsızlığı nedir?",
+   "bt": "What is identity theft?"
+  },
+  "ur": {
+   "q": "شناخت کی چوری کیا ہے؟",
+   "bt": "What is identity theft?"
+  },
+  "sw": {
+   "q": "Uwizi wa kitambulisho ni nini?",
+   "bt": "What is identity theft?"
+  },
+  "yo": {
+   "q": "Kí ni jíjà ẹni?",
+   "bt": "What is self-defense?"
+  },
+  "am": {
+   "q": "ማንነት ስርቆት ምንድን ነው?",
+   "bt": "What is identity theft?"
+  }
+ },
+ "DS06": {
+  "en": {
+   "q": "What is cyberbullying and who is most affected by it?",
+   "bt": "What is cyberbullying and who is most affected by it?"
+  },
+  "tr": {
+   "q": "Siber zorbalık nedir ve kimler en çok etkilenir?",
+   "bt": "What is cyberbullying, and who is most affected?"
+  },
+  "ur": {
+   "q": "سائبر ہولڈنگ کیا ہے اور اس سے سب سے زیادہ متاثر کون ہوتا ہے؟",
+   "bt": "What is cyber-holding and who is most affected by it?"
+  },
+  "sw": {
+   "q": "Uvutano wa Intaneti ni nini na ni nani wanaoathiriwa zaidi?",
+   "bt": "What is the influence of the Internet, and who are most affected?"
+  },
+  "yo": {
+   "q": "Kí ni ìfòòró ẹni lórí Íńtánẹ́ẹ̀tì, àwọn wo ló sì máa ń kó ìpayà bá?",
+   "bt": "What is cyberbullying, and who are at risk?"
+  },
+  "am": {
+   "q": "የሳይበር ማጉደል ምንድን ነው?",
+   "bt": "What is cyberbullying?"
+  }
+ },
+ "DS07": {
+  "en": {
+   "q": "What makes a password strong?",
+   "bt": "What makes a password strong?"
+  },
+  "tr": {
+   "q": "Bir şifrenin güçlü olmasını sağlayan nedir?",
+   "bt": "What makes a password strong?"
+  },
+  "ur": {
+   "q": "پاس ورڈ کو مضبوط بنانے کا کیا کام ہے؟",
+   "bt": "What is the function of password strengthening?"
+  },
+  "sw": {
+   "q": "Ni nini hufanya nenosiri liwe lenye nguvu?",
+   "bt": "What makes a password powerful?"
+  },
+  "yo": {
+   "q": "Kí ló máa ń mú kí ìsọfúnni tó lágbára?",
+   "bt": "What makes a message powerful?"
+  },
+  "am": {
+   "q": "የይለፍ ቃል ጠንካራ እንዲሆን የሚያደርገው ምንድን ነው?",
+   "bt": "What makes a password strong?"
+  }
+ },
+ "DS08": {
+  "en": {
+   "q": "What is an advance-fee scam?",
+   "bt": "What is an advance-fee scam?"
+  },
+  "tr": {
+   "q": "Ön ödeme hile nedir?",
+   "bt": "What's a prepaid scam?"
+  },
+  "ur": {
+   "q": "پیشگی فیس کا دھوکہ دہی کیا ہے؟",
+   "bt": "What is advance payment fraud?"
+  },
+  "sw": {
+   "q": "Ufisadi wa malipo ya mapema ni nini?",
+   "bt": "What is the corruption of early payments?"
+  },
+  "yo": {
+   "q": "Kí ni ìpolongo owó àjíǹde?",
+   "bt": "What is the resurrection money advertisement?"
+  },
+  "am": {
+   "q": "የቅድመ ክፍያ ማጭበርበር ምንድን ነው?",
+   "bt": "What is a prepaid fraud?"
+  }
+ },
+ "ED01": {
+  "en": {
+   "q": "What is a scholarship and do students have to pay it back?",
+   "bt": "What is a scholarship and do students have to pay it back?"
+  },
+  "tr": {
+   "q": "Bir burs nedir ve öğrencilerin geri ödeme yapmaları gerekiyor mu?",
+   "bt": "What is a scholarship and do students have to pay back?"
+  },
+  "ur": {
+   "q": "اسکالرشپ کیا ہے اور کیا طلبہ کو اسے واپس دینا ہے؟",
+   "bt": "What is a scholarship and should students pay it back?"
+  },
+  "sw": {
+   "q": "Msingi ni nini na je, wanafunzi wanapaswa kulipa?",
+   "bt": "What is the basic requirement, and should students pay?"
+  },
+  "yo": {
+   "q": "Kí ni ìwé ẹ̀kọ́ ẹ̀kó́ kí àwọn akẹ́kọ̀ọ́ sì máa san án padà?",
+   "bt": "What is the scholarship and what will the students pay back?"
+  },
+  "am": {
+   "q": "ምንድነው? ተማሪዎቹስ ሊከፍሉት ይገባል?",
+   "bt": "What is it? And should the students pay?"
+  }
+ },
+ "ED02": {
+  "en": {
+   "q": "What is distance education?",
+   "bt": "What is distance education?"
+  },
+  "tr": {
+   "q": "Uzaktan eğitim nedir?",
+   "bt": "What is distance learning?"
+  },
+  "ur": {
+   "q": "فاصلاتی تعلیم کیا ہے؟",
+   "bt": "What is distance learning?"
+  },
+  "sw": {
+   "q": "Elimu ya mbali ni nini?",
+   "bt": "What is distance education?"
+  },
+  "yo": {
+   "q": "Kí ni kíkọ́ ní ààyè?",
+   "bt": "What is life-long learning?"
+  },
+  "am": {
+   "q": "የርቀት ትምህርት ምንድን ነው?",
+   "bt": "What is a distance learning?"
+  }
+ },
+ "ED03": {
+  "en": {
+   "q": "What does literacy mean?",
+   "bt": "What does literacy mean?"
+  },
+  "tr": {
+   "q": "Yazarlık ne anlama gelir?",
+   "bt": "What does it mean to be a writer?"
+  },
+  "ur": {
+   "q": "خواندگی کا کیا مطلب ہے؟",
+   "bt": "What does literacy mean?"
+  },
+  "sw": {
+   "q": "Kujua kusoma na kuandika kunamaanisha nini?",
+   "bt": "What does it mean to be able to read and write?"
+  },
+  "yo": {
+   "q": "Kí ni kíkọ ìwé túmọ̀ sí?",
+   "bt": "What does it mean to write a book?"
+  },
+  "am": {
+   "q": "ማንበብና መጻፍ ምን ማለት ነው?",
+   "bt": "What does reading and writing mean?"
+  }
+ },
+ "ED04": {
+  "en": {
+   "q": "What is vocational education?",
+   "bt": "What is vocational education?"
+  },
+  "tr": {
+   "q": "Mesleki eğitim nedir?",
+   "bt": "What is vocational education?"
+  },
+  "ur": {
+   "q": "پیشہ ورانہ تعلیم کیا ہے؟",
+   "bt": "What is vocational education?"
+  },
+  "sw": {
+   "q": "Elimu ya kitaaluma ni nini?",
+   "bt": "What is academic education?"
+  },
+  "yo": {
+   "q": "Kí ni ìkọ́nilẹ́kọ̀ọ́ nípa iṣẹ́?",
+   "bt": "What is the training on work?"
+  },
+  "am": {
+   "q": "የሙያ ትምህርት ምንድን ነው?",
+   "bt": "What is a vocational training?"
+  }
+ },
+ "ED05": {
+  "en": {
+   "q": "What is a student loan and what can it be used for?",
+   "bt": "What is a student loan and what can it be used for?"
+  },
+  "tr": {
+   "q": "Öğrenci kredisi nedir ve ne için kullanılabilir?",
+   "bt": "What is a student loan and what can it be used for?"
+  },
+  "ur": {
+   "q": "طلبا کا قرض کیا ہے اور اس کا استعمال کیا جا سکتا ہے؟",
+   "bt": "What is student debt and how can it be used?"
+  },
+  "sw": {
+   "q": "Mkopo wa wanafunzi ni nini na unaweza kutumiwa kwa nini?",
+   "bt": "What is the student loan, and what can it be used for?"
+  },
+  "yo": {
+   "q": "Kí ni owó ìgbawó fún àwọn akẹ́kọ̀ọ́, kí sì ni wọ́n lè lò fún?",
+   "bt": "What is the student's financial contribution, and what can it be used for?"
+  },
+  "am": {
+   "q": "የተማሪ ብድር ምንድን ነው? ለየትኛው ጥቅም ላይ ሊውል ይችላል?",
+   "bt": "What is a student loan, and for what use?"
+  }
+ },
+ "ED06": {
+  "en": {
+   "q": "What is compulsory education?",
+   "bt": "What is compulsory education?"
+  },
+  "tr": {
+   "q": "İhtiyaclı eğitim nedir?",
+   "bt": "What is education?"
+  },
+  "ur": {
+   "q": "لازمی تعلیم کیا ہے؟",
+   "bt": "What is a basic education?"
+  },
+  "sw": {
+   "q": "Elimu ya lazima ni nini?",
+   "bt": "What is essential education?"
+  },
+  "yo": {
+   "q": "Kí ni ẹ̀kọ́ tó jẹ́ dandan?",
+   "bt": "What is needed?"
+  },
+  "am": {
+   "q": "ግዴታ ያለው ትምህርት ምንድን ነው?",
+   "bt": "What Is Compulsory Education?"
+  }
+ },
+ "ED07": {
+  "en": {
+   "q": "What is a bachelor's degree and how long does it take?",
+   "bt": "What is a bachelor's degree and how long does it take?"
+  },
+  "tr": {
+   "q": "Lisans derecesi nedir ve ne kadar sürer?",
+   "bt": "What's a bachelor's degree and how long does it take?"
+  },
+  "ur": {
+   "q": "بیچلر کی ڈگری کیا ہے اور اس میں کتنا وقت لگتا ہے؟",
+   "bt": "What is a bachelor's degree and how long does it take?"
+  },
+  "sw": {
+   "q": "Shahada ya shahada ya kwanza ni nini na inachukua muda gani?",
+   "bt": "What is a bachelor's degree, and how long does it take?"
+  },
+  "yo": {
+   "q": "Kí ni ìwé ìkọ́lẹ́kọ̀ọ́, báwo ló sì ṣe máa ń pẹ́ tó?",
+   "bt": "What is a study aid, and how long does it take?"
+  },
+  "am": {
+   "q": "የባችለር ዲግሪ ምንድን ነው? ምን ያህል ጊዜ ይወስዳል?",
+   "bt": "What is a bachelor's degree and how long does it take?"
+  }
+ },
+ "ED08": {
+  "en": {
+   "q": "What is homeschooling and who usually teaches the children?",
+   "bt": "What is homeschooling and who usually teaches the children?"
+  },
+  "tr": {
+   "q": "Ev eğitim nedir ve genellikle çocuklara kimler öğretir?",
+   "bt": "What is home education, and who usually teaches children?"
+  },
+  "ur": {
+   "q": "ہوم اسکولنگ کیا ہے اور عام طور پر بچوں کو کون سکھاتا ہے؟",
+   "bt": "What is home schooling, and who usually teaches children?"
+  },
+  "sw": {
+   "q": "Kufundisha nyumbani ni nini, na ni nani huwafundisha watoto?",
+   "bt": "What is home teaching, and who teaches children?"
+  },
+  "yo": {
+   "q": "Kí ni ilé ẹ̀kọ́, ta ló sì sábà máa ń kọ́ àwọn ọmọ?",
+   "bt": "What is school, and who usually teaches children?"
+  },
+  "am": {
+   "q": "የቤት ውስጥ ትምህርት ምንድን ነው? ብዙውን ጊዜ ልጆችን የሚያስተምረው ማን ነው?",
+   "bt": "What is home schooling, and who usually teaches children?"
+  }
+ },
+ "EM01": {
+  "en": {
+   "q": "What is a minimum wage?",
+   "bt": "What is a minimum wage?"
+  },
+  "tr": {
+   "q": "Asgari maaş nedir?",
+   "bt": "What's the minimum wage?"
+  },
+  "ur": {
+   "q": "کم از کم تنخواہ کیا ہے؟",
+   "bt": "What is the minimum wage?"
+  },
+  "sw": {
+   "q": "Mshahara wa chini ni nini?",
+   "bt": "What is the minimum wage?"
+  },
+  "yo": {
+   "q": "Kí ni owó ìnáwó tó kéré jù lọ?",
+   "bt": "What is the least expensive?"
+  },
+  "am": {
+   "q": "ዝቅተኛ ደመወዝ ምንድን ነው?",
+   "bt": "What is the minimum wage?"
+  }
+ },
+ "EM02": {
+  "en": {
+   "q": "What are unemployment benefits and who can receive them?",
+   "bt": "What are unemployment benefits and who can receive them?"
+  },
+  "tr": {
+   "q": "İşsizlik avantajları nedir ve kimler alabilir?",
+   "bt": "What are the unemployment benefits and who can get them?"
+  },
+  "ur": {
+   "q": "بے روزگاری کی معاوضے کیا ہیں اور کون انہیں حاصل کرسکتا ہے؟",
+   "bt": "What are unemployment benefits and who can get them?"
+  },
+  "sw": {
+   "q": "Faida za ukosefu wa kazi ni nini na ni nani anayeweza kuzipokea?",
+   "bt": "What are the benefits of unemployment, and who can benefit from them?"
+  },
+  "yo": {
+   "q": "Kí ni owó ìtìlẹ́yìn fún aláìṣiṣẹ́ṣẹ́pọ̀, àwọn wo ló sì lè gbà á?",
+   "bt": "What is a pension, and who can receive it?"
+  },
+  "am": {
+   "q": "የሥራ አጥነት ማበልጸጊያ ምንድን ነው? ማን ሊያገኝ ይችላል?",
+   "bt": "What is unemployment, and who can benefit?"
+  }
+ },
+ "EM03": {
+  "en": {
+   "q": "What is a trade union and what does it do for workers?",
+   "bt": "What is a trade union and what does it do for workers?"
+  },
+  "tr": {
+   "q": "Sendika nedir ve işçiler için ne yapar?",
+   "bt": "What is a union and what does it do for workers?"
+  },
+  "ur": {
+   "q": "کارکن یونین کیا ہے اور یہ کارکنوں کے لیے کیا کرتی ہے؟",
+   "bt": "What is a labor union and what does it do for workers?"
+  },
+  "sw": {
+   "q": "Jumuiya ya wafanyakazi ni nini na inafanya nini kwa wafanyakazi?",
+   "bt": "What is a workers' union and what does it do to workers?"
+  },
+  "yo": {
+   "q": "Kí ni àjọ òṣìṣẹ́ àti ipa wo ló ń kó lórí àwọn òṣìṣẹ́?",
+   "bt": "What is the role of the trade union and what influence does it have on workers?"
+  },
+  "am": {
+   "q": "የሠራተኛ ማህበር ምንድን ነው? ለሠራተኞችስ ምን ያደርጋል?",
+   "bt": "What is a labor union, and what does it do for workers?"
+  }
+ },
+ "EM04": {
+  "en": {
+   "q": "What is a résumé and what should it contain?",
+   "bt": "What is a résumé and what should it contain?"
+  },
+  "tr": {
+   "q": "Özetleme nedir ve içerecekleri ne olmalı?",
+   "bt": "What is a summary, and what should it contain?"
+  },
+  "ur": {
+   "q": "سیرت کیا ہے اور اس میں کیا شامل ہونا چاہئے؟",
+   "bt": "What is a biography and what should it involve?"
+  },
+  "sw": {
+   "q": "Maelezo ya wasifu ni nini na yanapaswa kuwa na nini?",
+   "bt": "What is a profile, and what should it include?"
+  },
+  "yo": {
+   "q": "Kí ni ìwé ìwádìí, kí ló sì yẹ kó wà nínú rẹ̀?",
+   "bt": "What is a research book, and what should it contain?"
+  },
+  "am": {
+   "q": "የህይወት ታሪክ ምንድን ነው?",
+   "bt": "What is the biography?"
+  }
+ },
+ "EM05": {
+  "en": {
+   "q": "What is an employment contract?",
+   "bt": "What is an employment contract?"
+  },
+  "tr": {
+   "q": "Bir iş sözleşmesi nedir?",
+   "bt": "What's a contract of employment?"
+  },
+  "ur": {
+   "q": "ملازمت کا معاہدہ کیا ہے؟",
+   "bt": "What is an employment contract?"
+  },
+  "sw": {
+   "q": "Mkataba wa kazi ni nini?",
+   "bt": "What is a contract of employment?"
+  },
+  "yo": {
+   "q": "Kí ni májẹ̀mú iṣẹ́?",
+   "bt": "What is a covenant of employment?"
+  },
+  "am": {
+   "q": "የሥራ ውል ምንድን ነው?",
+   "bt": "What is a contract of employment?"
+  }
+ },
+ "EM06": {
+  "en": {
+   "q": "What is child labour?",
+   "bt": "What is child labour?"
+  },
+  "tr": {
+   "q": "Çocuk işçiliği nedir?",
+   "bt": "What is child labor?"
+  },
+  "ur": {
+   "q": "بچوں کی مزدوری کیا ہے؟",
+   "bt": "What is child labour?"
+  },
+  "sw": {
+   "q": "Kazi ya watoto ni nini?",
+   "bt": "What is the role of children?"
+  },
+  "yo": {
+   "q": "Kí ni iṣẹ́ àṣekára àwọn ọmọdé?",
+   "bt": "What is child labor?"
+  },
+  "am": {
+   "q": "የልጆች ሥራ ምንድን ነው?",
+   "bt": "What is the role of children?"
+  }
+ },
+ "EM07": {
+  "en": {
+   "q": "What is occupational safety and health?",
+   "bt": "What is occupational safety and health?"
+  },
+  "tr": {
+   "q": "İş güvenliği ve sağlığı nedir?",
+   "bt": "What is occupational safety and health?"
+  },
+  "ur": {
+   "q": "کام پر حفاظت اور صحت کیا ہے؟",
+   "bt": "What is safety and health at work?"
+  },
+  "sw": {
+   "q": "Usalama na afya ya kazini ni nini?",
+   "bt": "What is safety and health at work?"
+  },
+  "yo": {
+   "q": "Kí ni ààbò àti ìlera níbi iṣẹ́?",
+   "bt": "What is safety and health at work?"
+  },
+  "am": {
+   "q": "በሥራ ላይ ደህንነት እና ጤና ምንድን ነው?",
+   "bt": "What is safety and health at work?"
+  }
+ },
+ "EM08": {
+  "en": {
+   "q": "What is a pension?",
+   "bt": "What is a pension?"
+  },
+  "tr": {
+   "q": "Emeklilik nedir?",
+   "bt": "What is retirement?"
+  },
+  "ur": {
+   "q": "پنشن کیا ہے؟",
+   "bt": "What is a pension?"
+  },
+  "sw": {
+   "q": "Mishahara ni nini?",
+   "bt": "What is the salary?"
+  },
+  "yo": {
+   "q": "Kí ni owó àbójútó?",
+   "bt": "What is the cost of care?"
+  },
+  "am": {
+   "q": "ጡረታ ምንድን ነው?",
+   "bt": "What is a pension?"
+  }
+ },
+ "PS01": {
+  "en": {
+   "q": "What is a passport and what is it used for?",
+   "bt": "What is a passport and what is it used for?"
+  },
+  "tr": {
+   "q": "Pasaport nedir ve ne için kullanılır?",
+   "bt": "What is a passport and what is it used for?"
+  },
+  "ur": {
+   "q": "پاسپورٹ کیا ہے اور اس کا استعمال کیا جاتا ہے؟",
+   "bt": "What is a passport and what is it used for?"
+  },
+  "sw": {
+   "q": "Pasipoti ni nini na hutumiwa kwa nini?",
+   "bt": "What is a passport and what is it used for?"
+  },
+  "yo": {
+   "q": "Kí ni ìwé ìrìn àjò, kí sì ni wọ́n ń lò fún?",
+   "bt": "What is a passport, and what is it used for?"
+  },
+  "am": {
+   "q": "ፓስፖርት ምንድን ነው?",
+   "bt": "What is a passport?"
+  }
+ },
+ "PS02": {
+  "en": {
+   "q": "What is a birth certificate?",
+   "bt": "What is a birth certificate?"
+  },
+  "tr": {
+   "q": "Doğum belgesinin anlamı nedir?",
+   "bt": "What's the meaning of a birth certificate?"
+  },
+  "ur": {
+   "q": "پیدائش کا سرٹیفکیٹ کیا ہے؟",
+   "bt": "What is a birth certificate?"
+  },
+  "sw": {
+   "q": "Cheti cha kuzaliwa ni nini?",
+   "bt": "What is a birth certificate?"
+  },
+  "yo": {
+   "q": "Kí ni ìwé ìbí?",
+   "bt": "What is the birth certificate?"
+  },
+  "am": {
+   "q": "የልደት የምስክር ወረቀት ምንድን ነው?",
+   "bt": "What is a birth certificate?"
+  }
+ },
+ "PS03": {
+  "en": {
+   "q": "What is vaccination and how does it protect people?",
+   "bt": "What is vaccination and how does it protect people?"
+  },
+  "tr": {
+   "q": "Vaksinasyon nedir ve insanları nasıl korur?",
+   "bt": "What is vaccination and how does it protect people?"
+  },
+  "ur": {
+   "q": "ویکسینیشن کیا ہے اور یہ لوگوں کو کیسے بچاتی ہے؟",
+   "bt": "What is vaccination and how does it save people?"
+  },
+  "sw": {
+   "q": "Chanjo ni nini na inalindaje watu?",
+   "bt": "What is a vaccine, and how does it protect people?"
+  },
+  "yo": {
+   "q": "Kí ni dìdínjú, báwo ló sì ṣe ń dáàbò bo àwọn èèyàn?",
+   "bt": "What is a covering, and how does it protect people?"
+  },
+  "am": {
+   "q": "ክትባት ምንድን ነው? ሰዎችን የሚጠብቀው እንዴት ነው?",
+   "bt": "What is a vaccine, and how does it protect people?"
+  }
+ },
+ "PS04": {
+  "en": {
+   "q": "What is an identity document?",
+   "bt": "What is an identity document?"
+  },
+  "tr": {
+   "q": "Kimlik belgesi nedir?",
+   "bt": "What's your ID?"
+  },
+  "ur": {
+   "q": "شناختی دستاویز کیا ہے؟",
+   "bt": "What is an ID?"
+  },
+  "sw": {
+   "q": "Hati ya kitambulisho ni nini?",
+   "bt": "What is an identity document?"
+  },
+  "yo": {
+   "q": "Kí ni ìwé ìjẹ́mímọ́?",
+   "bt": "What is a holy book?"
+  },
+  "am": {
+   "q": "መታወቂያ ምንድን ነው?",
+   "bt": "What is an ID?"
+  }
+ },
+ "PS05": {
+  "en": {
+   "q": "What is social welfare support from the government?",
+   "bt": "What is social welfare support from the government?"
+  },
+  "tr": {
+   "q": "Hükümetin sosyal yardım desteği nedir?",
+   "bt": "What is the government's social assistance support?"
+  },
+  "ur": {
+   "q": "حکومت کی جانب سے سماجی بہبود کی حمایت کیا ہے؟",
+   "bt": "What is the government's social welfare support?"
+  },
+  "sw": {
+   "q": "Serikali inatoa msaada gani wa kijamii?",
+   "bt": "What kind of social assistance does the government provide?"
+  },
+  "yo": {
+   "q": "Kí ni ìrànlọ́wọ́ ààbò ààbò tí ìjọba ń fúnni?",
+   "bt": "What is governmental protection?"
+  },
+  "am": {
+   "q": "ከመንግስት ማህበራዊ ድጋፍን ምን ማለት ነው?",
+   "bt": "What does social support from the government mean?"
+  }
+ },
+ "PS06": {
+  "en": {
+   "q": "What is universal health care?",
+   "bt": "What is universal health care?"
+  },
+  "tr": {
+   "q": "Evrensel sağlık bakımı nedir?",
+   "bt": "What is universal health care?"
+  },
+  "ur": {
+   "q": "صحت کی دیکھ بھال کیا ہے؟",
+   "bt": "What is health care?"
+  },
+  "sw": {
+   "q": "Huduma ya afya ya ulimwenguni pote ni nini?",
+   "bt": "What is universal health care?"
+  },
+  "yo": {
+   "q": "Kí ni ìtọ́jú ìṣègùn tó gbòde kan?",
+   "bt": "What are common medical treatments?"
+  },
+  "am": {
+   "q": "ዓለም አቀፍ የጤና እንክብካቤ ምንድን ነው?",
+   "bt": "What is universal health care?"
+  }
+ },
+ "PS07": {
+  "en": {
+   "q": "What is voter registration?",
+   "bt": "What is voter registration?"
+  },
+  "tr": {
+   "q": "Seçmen kayıtları nedir?",
+   "bt": "What are the voter records?"
+  },
+  "ur": {
+   "q": "ووٹر رجسٹریشن کیا ہے؟",
+   "bt": "What is voter registration?"
+  },
+  "sw": {
+   "q": "Usajili wa wapiga kura ni nini?",
+   "bt": "What is the registration of voters?"
+  },
+  "yo": {
+   "q": "Kí ni ìforúkọsílẹ̀ àwọn olùbò?",
+   "bt": "What is the registration of voters?"
+  },
+  "am": {
+   "q": "የምርጫ ምዝገባ ምንድን ነው?",
+   "bt": "What is voting registration?"
+  }
+ },
+ "PS08": {
+  "en": {
+   "q": "What is income tax?",
+   "bt": "What is income tax?"
+  },
+  "tr": {
+   "q": "Gelir vergisi nedir?",
+   "bt": "What's the income tax?"
+  },
+  "ur": {
+   "q": "آمدنی ٹیکس کیا ہے؟",
+   "bt": "What is income tax?"
+  },
+  "sw": {
+   "q": "Kodi ya mapato ni nini?",
+   "bt": "What is income tax?"
+  },
+  "yo": {
+   "q": "Kí ni owó orí orí?",
+   "bt": "What is a tax?"
+  },
+  "am": {
+   "q": "የገቢ ግብር ምንድን ነው?",
+   "bt": "What is income tax?"
+  }
+ }
+}
