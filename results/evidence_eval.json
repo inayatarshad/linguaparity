@@ -1,0 +1,1565 @@
+{
+ "calibration": {
+  "tau": 0.4777643084526062,
+  "auc": 1.0,
+  "tpr": 1.0,
+  "fpr": 0.0,
+  "n_pairs": 192
+ },
+ "coverage": [
+  {
+   "id": "DS01",
+   "domain": "digital_safety",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS01",
+   "domain": "digital_safety",
+   "lang": "tr",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS01",
+   "domain": "digital_safety",
+   "lang": "ur",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS01",
+   "domain": "digital_safety",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS01",
+   "domain": "digital_safety",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS01",
+   "domain": "digital_safety",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS02",
+   "domain": "digital_safety",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS02",
+   "domain": "digital_safety",
+   "lang": "tr",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "DS02",
+   "domain": "digital_safety",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS02",
+   "domain": "digital_safety",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS02",
+   "domain": "digital_safety",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS02",
+   "domain": "digital_safety",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS03",
+   "domain": "digital_safety",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS03",
+   "domain": "digital_safety",
+   "lang": "tr",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "DS03",
+   "domain": "digital_safety",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS03",
+   "domain": "digital_safety",
+   "lang": "sw",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "DS03",
+   "domain": "digital_safety",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS03",
+   "domain": "digital_safety",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS04",
+   "domain": "digital_safety",
+   "lang": "en",
+   "native": 0.3333333333333333,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "DS04",
+   "domain": "digital_safety",
+   "lang": "tr",
+   "native": 0.6666666666666666,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "DS04",
+   "domain": "digital_safety",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "DS04",
+   "domain": "digital_safety",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS04",
+   "domain": "digital_safety",
+   "lang": "yo",
+   "native": 0.3333333333333333,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "DS04",
+   "domain": "digital_safety",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS05",
+   "domain": "digital_safety",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS05",
+   "domain": "digital_safety",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS05",
+   "domain": "digital_safety",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS05",
+   "domain": "digital_safety",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS05",
+   "domain": "digital_safety",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS05",
+   "domain": "digital_safety",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS06",
+   "domain": "digital_safety",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS06",
+   "domain": "digital_safety",
+   "lang": "tr",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "DS06",
+   "domain": "digital_safety",
+   "lang": "ur",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "DS06",
+   "domain": "digital_safety",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS06",
+   "domain": "digital_safety",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS06",
+   "domain": "digital_safety",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS07",
+   "domain": "digital_safety",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS07",
+   "domain": "digital_safety",
+   "lang": "tr",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS07",
+   "domain": "digital_safety",
+   "lang": "ur",
+   "native": 0.3333333333333333,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "DS07",
+   "domain": "digital_safety",
+   "lang": "sw",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "DS07",
+   "domain": "digital_safety",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS07",
+   "domain": "digital_safety",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS08",
+   "domain": "digital_safety",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS08",
+   "domain": "digital_safety",
+   "lang": "tr",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS08",
+   "domain": "digital_safety",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "DS08",
+   "domain": "digital_safety",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS08",
+   "domain": "digital_safety",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "DS08",
+   "domain": "digital_safety",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED01",
+   "domain": "education",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED01",
+   "domain": "education",
+   "lang": "tr",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "ED01",
+   "domain": "education",
+   "lang": "ur",
+   "native": 0.3333333333333333,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "ED01",
+   "domain": "education",
+   "lang": "sw",
+   "native": 0.3333333333333333,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "ED01",
+   "domain": "education",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "ED01",
+   "domain": "education",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED02",
+   "domain": "education",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED02",
+   "domain": "education",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED02",
+   "domain": "education",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED02",
+   "domain": "education",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED02",
+   "domain": "education",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED02",
+   "domain": "education",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED03",
+   "domain": "education",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED03",
+   "domain": "education",
+   "lang": "tr",
+   "native": 0.6666666666666666,
+   "pivot": 0.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "ED03",
+   "domain": "education",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED03",
+   "domain": "education",
+   "lang": "sw",
+   "native": 0.3333333333333333,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "ED03",
+   "domain": "education",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED03",
+   "domain": "education",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED04",
+   "domain": "education",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED04",
+   "domain": "education",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED04",
+   "domain": "education",
+   "lang": "ur",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED04",
+   "domain": "education",
+   "lang": "sw",
+   "native": 0.6666666666666666,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "ED04",
+   "domain": "education",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "ED04",
+   "domain": "education",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED05",
+   "domain": "education",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED05",
+   "domain": "education",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED05",
+   "domain": "education",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED05",
+   "domain": "education",
+   "lang": "sw",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "ED05",
+   "domain": "education",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "ED05",
+   "domain": "education",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED06",
+   "domain": "education",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED06",
+   "domain": "education",
+   "lang": "tr",
+   "native": 0.3333333333333333,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "ED06",
+   "domain": "education",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED06",
+   "domain": "education",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED06",
+   "domain": "education",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED06",
+   "domain": "education",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED07",
+   "domain": "education",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED07",
+   "domain": "education",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED07",
+   "domain": "education",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED07",
+   "domain": "education",
+   "lang": "sw",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED07",
+   "domain": "education",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED07",
+   "domain": "education",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED08",
+   "domain": "education",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED08",
+   "domain": "education",
+   "lang": "tr",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "ED08",
+   "domain": "education",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "ED08",
+   "domain": "education",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.0
+  },
+  {
+   "id": "ED08",
+   "domain": "education",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "ED08",
+   "domain": "education",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM01",
+   "domain": "employment",
+   "lang": "en",
+   "native": 0.6666666666666666,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "EM01",
+   "domain": "employment",
+   "lang": "tr",
+   "native": 0.3333333333333333,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "EM01",
+   "domain": "employment",
+   "lang": "ur",
+   "native": 0.3333333333333333,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "EM01",
+   "domain": "employment",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "EM01",
+   "domain": "employment",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM01",
+   "domain": "employment",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "EM02",
+   "domain": "employment",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM02",
+   "domain": "employment",
+   "lang": "tr",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM02",
+   "domain": "employment",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM02",
+   "domain": "employment",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM02",
+   "domain": "employment",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM02",
+   "domain": "employment",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "EM03",
+   "domain": "employment",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM03",
+   "domain": "employment",
+   "lang": "tr",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "EM03",
+   "domain": "employment",
+   "lang": "ur",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM03",
+   "domain": "employment",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM03",
+   "domain": "employment",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM03",
+   "domain": "employment",
+   "lang": "am",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM04",
+   "domain": "employment",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM04",
+   "domain": "employment",
+   "lang": "tr",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM04",
+   "domain": "employment",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM04",
+   "domain": "employment",
+   "lang": "sw",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM04",
+   "domain": "employment",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM04",
+   "domain": "employment",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "EM05",
+   "domain": "employment",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM05",
+   "domain": "employment",
+   "lang": "tr",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM05",
+   "domain": "employment",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM05",
+   "domain": "employment",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM05",
+   "domain": "employment",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM05",
+   "domain": "employment",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM06",
+   "domain": "employment",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM06",
+   "domain": "employment",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM06",
+   "domain": "employment",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM06",
+   "domain": "employment",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM06",
+   "domain": "employment",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM06",
+   "domain": "employment",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM07",
+   "domain": "employment",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM07",
+   "domain": "employment",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM07",
+   "domain": "employment",
+   "lang": "ur",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM07",
+   "domain": "employment",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM07",
+   "domain": "employment",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM07",
+   "domain": "employment",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM08",
+   "domain": "employment",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM08",
+   "domain": "employment",
+   "lang": "tr",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM08",
+   "domain": "employment",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "EM08",
+   "domain": "employment",
+   "lang": "sw",
+   "native": 0.3333333333333333,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "EM08",
+   "domain": "employment",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "EM08",
+   "domain": "employment",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "PS01",
+   "domain": "public_services",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS01",
+   "domain": "public_services",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS01",
+   "domain": "public_services",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS01",
+   "domain": "public_services",
+   "lang": "sw",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS01",
+   "domain": "public_services",
+   "lang": "yo",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS01",
+   "domain": "public_services",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS02",
+   "domain": "public_services",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS02",
+   "domain": "public_services",
+   "lang": "tr",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS02",
+   "domain": "public_services",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS02",
+   "domain": "public_services",
+   "lang": "sw",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS02",
+   "domain": "public_services",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "PS02",
+   "domain": "public_services",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS03",
+   "domain": "public_services",
+   "lang": "en",
+   "native": 0.3333333333333333,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "PS03",
+   "domain": "public_services",
+   "lang": "tr",
+   "native": 0.3333333333333333,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "PS03",
+   "domain": "public_services",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS03",
+   "domain": "public_services",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS03",
+   "domain": "public_services",
+   "lang": "yo",
+   "native": 0.3333333333333333,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS03",
+   "domain": "public_services",
+   "lang": "am",
+   "native": 0.6666666666666666,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "PS04",
+   "domain": "public_services",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS04",
+   "domain": "public_services",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 0.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS04",
+   "domain": "public_services",
+   "lang": "ur",
+   "native": 1.0,
+   "pivot": 0.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS04",
+   "domain": "public_services",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS04",
+   "domain": "public_services",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS04",
+   "domain": "public_services",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS05",
+   "domain": "public_services",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS05",
+   "domain": "public_services",
+   "lang": "tr",
+   "native": 0.3333333333333333,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS05",
+   "domain": "public_services",
+   "lang": "ur",
+   "native": 0.6666666666666666,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "PS05",
+   "domain": "public_services",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS05",
+   "domain": "public_services",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "PS05",
+   "domain": "public_services",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS06",
+   "domain": "public_services",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS06",
+   "domain": "public_services",
+   "lang": "tr",
+   "native": 0.6666666666666666,
+   "pivot": 0.6666666666666666,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "PS06",
+   "domain": "public_services",
+   "lang": "ur",
+   "native": 0.6666666666666666,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "PS06",
+   "domain": "public_services",
+   "lang": "sw",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS06",
+   "domain": "public_services",
+   "lang": "yo",
+   "native": 0.3333333333333333,
+   "pivot": 0.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS06",
+   "domain": "public_services",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS07",
+   "domain": "public_services",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS07",
+   "domain": "public_services",
+   "lang": "tr",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS07",
+   "domain": "public_services",
+   "lang": "ur",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS07",
+   "domain": "public_services",
+   "lang": "sw",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS07",
+   "domain": "public_services",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.3333333333333333
+  },
+  {
+   "id": "PS07",
+   "domain": "public_services",
+   "lang": "am",
+   "native": 0.0,
+   "pivot": 0.3333333333333333,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS08",
+   "domain": "public_services",
+   "lang": "en",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS08",
+   "domain": "public_services",
+   "lang": "tr",
+   "native": 1.0,
+   "pivot": 1.0,
+   "mixed": 1.0
+  },
+  {
+   "id": "PS08",
+   "domain": "public_services",
+   "lang": "ur",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "PS08",
+   "domain": "public_services",
+   "lang": "sw",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 0.6666666666666666
+  },
+  {
+   "id": "PS08",
+   "domain": "public_services",
+   "lang": "yo",
+   "native": 0.0,
+   "pivot": 1.0,
+   "mixed": 0.0
+  },
+  {
+   "id": "PS08",
+   "domain": "public_services",
+   "lang": "am",
+   "native": 0.6666666666666666,
+   "pivot": 1.0,
+   "mixed": 1.0
+  }
+ ],
+ "token_ratio": {
+  "Qwen2.5": {
+   "en": 1.0,
+   "tr": 1.5097433816183816,
+   "ur": 3.086826454795205,
+   "sw": 2.0447623556998558,
+   "yo": 3.2050972465034966,
+   "am": 3.9867053952991456
+  },
+  "Qwen3": {
+   "en": 1.0,
+   "tr": 1.5097433816183816,
+   "ur": 3.086826454795205,
+   "sw": 2.0447623556998558,
+   "yo": 3.2050972465034966,
+   "am": 3.9867053952991456
+  }
+ }
+}
