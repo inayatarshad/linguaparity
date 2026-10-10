@@ -45,9 +45,9 @@ for l in LANG_CODES:
         "article_exists": a.exists.mean(),
         "bytes_ratio": a.bytes_ratio_to_en.mean(),
         "native_hit3": r.native_hit.mean(),
-        "native_cov": c.native.mean(), "native_cov_ci": boot_ci(c.native),
-        "pivot_cov": c.pivot.mean(), "pivot_cov_ci": boot_ci(c.pivot),
-        "mixed_cov": c.mixed.mean(),
+        "native_cov": c["native"].mean(), "native_cov_ci": boot_ci(c["native"]),
+        "pivot_cov": c["pivot"].mean(), "pivot_cov_ci": boot_ci(c["pivot"]),
+        "mixed_cov": c["mixed"].mean(),
         "mixed_en_share": r.mixed_en_share.mean() if l != "en" else np.nan,
         "mt_labse": qc[l]["labse_en_vs_l"] if l in qc else 1.0,
         "mt_roundtrip_labse": qc[l]["labse_en_vs_backtranslation"] if l in qc else 1.0,
@@ -62,14 +62,14 @@ en = cov[cov.lang == "en"].set_index("id").native
 p1, p2 = [], []
 for l in LANG_CODES[1:]:
     c = cov[cov.lang == l].set_index("id")
-    d1 = (c.native - en.reindex(c.index))
-    d2 = (c.pivot - c.native)
+    d1 = (c["native"] - en.reindex(c.index))
+    d2 = (c["pivot"] - c["native"])
     t1 = stats.wilcoxon(d1, zero_method="zsplit").pvalue if (d1 != 0).any() else 1.0
     t2 = stats.wilcoxon(d2, zero_method="zsplit").pvalue if (d2 != 0).any() else 1.0
     p1.append(t1)
     p2.append(t2)
     out["native_vs_english"].append({"lang": l, "diff": float(d1.mean()), "p": float(t1)})
-    out["pivot_vs_native"].append({"lang": l, "native": float(c.native.mean()), "pivot": float(c.pivot.mean()),
+    out["pivot_vs_native"].append({"lang": l, "native": float(c["native"].mean()), "pivot": float(c["pivot"].mean()),
                                    "diff": float(d2.mean()), "p": float(t2)})
 for rec, adj in zip(out["native_vs_english"], holm(p1)):
     rec["p_holm"] = float(adj)
@@ -78,13 +78,13 @@ for rec, adj in zip(out["pivot_vs_native"], holm(p2)):
 
 m = cov.merge(avail[["id", "lang", "exists"]], on=["id", "lang"])
 m = m[m.lang != "en"]
-rho, p = stats.spearmanr(m.exists.astype(float), m.native)
+rho, p = stats.spearmanr(m.exists.astype(float), m["native"])
 out["spearman"].append({"x": "article_exists", "y": "native_coverage", "rho": float(rho), "p": float(p), "n": len(m)})
 rho, p = stats.spearmanr(np.log10(lang_df.wiki_articles), lang_df.native_cov)
 out["spearman"].append({"x": "log10_wiki_articles", "y": "native_coverage", "rho": float(rho), "p": float(p), "n": 6})
 rho, p = stats.spearmanr(lang_df.article_exists, lang_df.native_cov)
 out["spearman"].append({"x": "article_exists_rate", "y": "native_coverage", "rho": float(rho), "p": float(p), "n": 6})
-dom = cov.groupby(["domain", "lang"]).native.mean().unstack()[LANG_CODES]
+dom = cov.groupby(["domain", "lang"])["native"].mean().unstack()[LANG_CODES]
 out["domain_native_coverage"] = dom.round(3).to_dict()
 write_json(RESULTS / "stats.json", out)
 
@@ -93,7 +93,7 @@ plt.rcParams.update({"font.size": 8, "font.family": "serif", "axes.spines.top": 
                      "axes.spines.right": False})
 names = [LANGUAGES[l]["name"] for l in LANG_CODES]
 x = np.arange(len(LANG_CODES))
-fig, ax = plt.subplots(figsize=(6.3, 2.5))
+fig, ax = plt.subplots(figsize=(6.3, 2.9))
 series = [("Canonical article exists", lang_df.article_exists, "#4c72b0", "o", "-"),
           ("Canonical article in native top-3", lang_df.native_hit3, "#55a868", "s", "-"),
           ("Key facts covered, native evidence", lang_df.native_cov, "#c44e52", "^", "-"),
@@ -104,7 +104,7 @@ for label, y, col, mk, ls in series:
 ax.set_xticks(x, names)
 ax.set_ylim(-0.03, 1.05)
 ax.set_ylabel("Proportion")
-ax.legend(fontsize=6.3, ncol=2, frameon=False, loc="lower left")
+ax.legend(fontsize=6.3, ncol=3, frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.12))
 fig.tight_layout()
 fig.savefig(FIGURES / "fig1_pipeline.png", dpi=300)
 
