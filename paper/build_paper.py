@@ -44,9 +44,10 @@ low_pivot = L.loc[low, "pivot_cov"].mean()
 
 b = PaperBuilder(template)
 b.title("LinguaParity: Do Multilingual LLMs Provide Equal Access to Information Across Languages?")
-b.authors("Full Name Surname^{1}")
-b.affiliation("^{1}Department, Faculty, University, City, Country")
-b.affiliation("email@domain.com   |   ORCID: 0000-0000-0000-0000")
+b.authors("Inayat Arshad^{1}")
+b.affiliation("^{1}Department of Computer and Information Sciences, Pakistan Institute of Engineering and Applied "
+              "Sciences (PIEAS), Lehtrar Road, Nilore, Islamabad, Pakistan")
+b.affiliation("bscs2248@pieas.edu.pk   |   ORCID: 0009-0006-3999-3144")
 b.spacer()
 
 b.abstract(
