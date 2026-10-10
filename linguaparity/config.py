@@ -21,17 +21,15 @@ LANG_CODES = list(LANGUAGES)
 
 MT_MODEL = "facebook/nllb-200-distilled-600M"
 EMBED_MODEL = "sentence-transformers/LaBSE"
-NLI_MODEL = "cross-encoder/nli-deberta-v3-base"
-GENERATORS = {
-    "qwen2.5-1.5b": "Qwen/Qwen2.5-1.5B-Instruct",
-    "qwen3-1.7b": "Qwen/Qwen3-1.7B",
+TOKENIZERS = {
+    "Qwen2.5": "Qwen/Qwen2.5-1.5B-Instruct",
+    "Qwen3": "Qwen/Qwen3-1.7B",
 }
 
 SEED = 13
 TOP_K = 3            # evidence passages given to the generator
-CANDIDATES = 20      # candidate pages pulled from search before dense reranking
-PASSAGE_CHARS = 700  # characters kept per evidence passage
-MAX_NEW_TOKENS = 160
+CANDIDATES = 10      # candidate pages pulled from search before dense reranking
+PASSAGE_CHARS = 400  # characters kept per evidence passage
 
 
 def load_needs():
