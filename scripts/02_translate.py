@@ -22,7 +22,14 @@ e_en = embed(q_en)
 questions = {n["id"]: {"en": {"q": n["question"], "bt": n["question"]}} for n in needs}
 roundtrip = {"en": {n["id"]: " ".join(sentences(refs[n["id"]])[:2]) for n in needs if int(n["id"][2:]) <= 4}}
 qc = {}
+# Incremental: languages that already have results are reused unchanged.
+if (RESULTS / "translation_qc.json").exists():
+    qc = read_json(RESULTS / "translation_qc.json")
+    questions = read_json(RESULTS / "questions.json")
+    roundtrip = read_json(RESULTS / "reference_roundtrip.json")
 for l in LANG_CODES[1:]:
+    if l in qc:
+        continue
     q_l = translate(q_en, "en", l)
     bt = translate(q_l, l, "en")
     for n, a, b in zip(needs, q_l, bt):

@@ -37,6 +37,8 @@ def best_sim(fact_vecs, sents):
     return (np.stack(fact_vecs) @ embed(sents).T).max(1)
 
 
+prev = read_json(RESULTS / "evidence_eval.json") if (RESULTS / "evidence_eval.json").exists() else None
+
 # ---- calibrate tau on English references ----
 ref_sents = {i: sentences(refs[i]) for i in ids}
 pos, neg = [], []
@@ -52,11 +54,18 @@ k = int(np.argmax(tpr - fpr))
 tau = float(thr[k])
 calibration = {"tau": tau, "auc": float(roc_auc_score(y, s)), "tpr": float(tpr[k]), "fpr": float(fpr[k]),
                "n_pairs": int(len(y))}
+if prev is not None:
+    # Incremental runs keep the stored calibration so existing languages are unchanged.
+    calibration, tau = prev["calibration"], prev["calibration"]["tau"]
 print("calibration", calibration, flush=True)
 
 # ---- coverage of retrieved evidence ----
+done = {(c["id"], c["lang"]): c for c in prev["coverage"]} if prev is not None else {}
 coverage = []
 for r in retrieval:
+    if (r["id"], r["lang"]) in done:
+        coverage.append(done[(r["id"], r["lang"])])
+        continue
     vecs = [fact_emb[(r["id"], f)] for f in needs[r["id"]]["key_facts"]]
     row = {"id": r["id"], "domain": r["domain"], "lang": r["lang"]}
     for cond in ("native", "pivot", "mixed"):

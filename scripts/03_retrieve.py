@@ -22,7 +22,7 @@ import numpy as np
 
 from linguaparity import wiki
 from linguaparity.config import CANDIDATES, LANG_CODES, PASSAGE_CHARS, RESULTS, TOP_K, load_needs
-from linguaparity.io import read_json, write_jsonl
+from linguaparity.io import read_json, read_jsonl, write_jsonl
 from linguaparity.models import embed
 
 
@@ -51,9 +51,16 @@ def rerank(query, cands, k):
 needs = load_needs()
 questions = read_json(RESULTS / "questions.json")
 avail = {(a["id"], a["lang"]): a for a in read_json(RESULTS / "availability.json")}
+# Incremental: (need, language) pairs that already have results are reused unchanged.
+done = {}
+if (RESULTS / "retrieval.jsonl").exists():
+    done = {(r["id"], r["lang"]): r for r in read_jsonl(RESULTS / "retrieval.jsonl")}
 rows = []
 for n in needs:
     for l in LANG_CODES:
+        if (n["id"], l) in done:
+            rows.append(done[(n["id"], l)])
+            continue
         q, bt = questions[n["id"]][l]["q"], questions[n["id"]][l]["bt"]
         nat_c = candidates(l, q)
         piv_c = nat_c if l == "en" else candidates("en", bt)
