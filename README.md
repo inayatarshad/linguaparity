@@ -33,7 +33,7 @@ Usual evaluation treats "the model" as one black box and reports one accuracy pe
 
 ```mermaid
 flowchart LR
-    Q["Information need<br/>(same question in 6 languages)"] --> A["1. Evidence availability<br/>Does the language's Wikipedia<br/>have the article?"]
+    Q["Information need<br/>(same question in 8 languages)"] --> A["1. Evidence availability<br/>Does the language's Wikipedia<br/>have the article?"]
     A --> R["2. Retrieval<br/>Is the article found<br/>in the top 3?"]
     R --> C["3. Evidence coverage<br/>Do the retrieved passages<br/>contain the key facts?"]
     C --> S["4. Source-language dependence<br/>How often does English<br/>evidence win?"]
@@ -75,8 +75,9 @@ The questions are deliberately general rather than country-specific, so the same
 
 ### Languages
 
-The six languages span the resource classes of Joshi et al. (2020) and three scripts:
+The eight languages span the resource classes of Joshi et al. (2020) and three scripts. Spanish and Dutch are included as high-resource European reference points, so the low-resource languages can be compared not only with English but with other well-resourced languages:
 
+<!-- languages:start -->
 | Language | Script | Resource class | Wikipedia articles (at time of run) |
 |---|---|---|---|
 | English | Latin | 5 | 7,250,069 |
@@ -85,6 +86,7 @@ The six languages span the resource classes of Joshi et al. (2020) and three scr
 | Swahili | Latin | 2 | 130,446 |
 | Yoruba | Latin | 2 | 41,357 |
 | Amharic | Ethiopic | 2 | 15,733 |
+<!-- languages:end -->
 
 ---
 
@@ -103,7 +105,7 @@ All models run locally on CPU. No commercial API is used.
      * **mixed**: native and English candidates pooled and reranked together
 4. **Evidence coverage** ([`04_evidence_eval.py`](scripts/04_evidence_eval.py)). Each English key fact is compared with every sentence of the evidence using LaBSE cross-lingual similarity, so no translation sits between evidence and judgement. A fact counts as covered when its best match is at least a threshold τ. τ = 0.478 is calibrated on English by maximising Youden's J between a fact and its own article versus an unrelated article (AUC = 1.00). Because the negatives are unrelated articles, this calibration is lenient, so coverage values are upper bounds. Token cost uses the tokenizer shared by Qwen2.5 and Qwen3.
 5. **Statistics** ([`05_analyze.py`](scripts/05_analyze.py)).
-   * Paired Wilcoxon signed-rank tests over the 32 needs, with Holm correction across the five non-English languages.
+   * Paired Wilcoxon signed-rank tests over the 32 needs, with Holm correction across the non-English languages.
    * Percentile bootstrap 95% confidence intervals (5,000 resamples).
    * Spearman correlations between availability and coverage.
 
@@ -115,6 +117,9 @@ Every Wikipedia API response is cached, so a run can be repeated against the sam
 
 ### Stage-wise results per language (32 needs)
 
+The tables in this section are generated from `results/` by `scripts/06_readme_tables.py`.
+
+<!-- main:start -->
 | Language | Article exists | Native hit@3 | Native coverage | Pivot coverage | Mixed coverage | EN share in mixed | Tokens vs EN |
 |---|---|---|---|---|---|---|---|
 | English | 1.00 | 0.97 | 0.95 | 0.95 | 0.95 | - | 1.00 |
@@ -123,6 +128,7 @@ Every Wikipedia API response is cached, so a run can be repeated against the sam
 | Swahili | 0.25 | 0.09 | 0.21 | 0.69 | 0.58 | 0.45 | 2.04 |
 | Yoruba | 0.00 | 0.00 | 0.05 | 0.38 | 0.30 | 0.60 | 3.21 |
 | Amharic | 0.03 | 0.03 | 0.05 | 0.66 | 0.57 | 0.54 | 3.99 |
+<!-- main:end -->
 
 ![Information-access pipeline per language](figures/fig1_pipeline.png)
 
@@ -136,6 +142,7 @@ Every Wikipedia API response is cached, so a run can be repeated against the sam
 
 **4. English sources close the gap, at a cost.** Routing the question through English raises coverage significantly in every language:
 
+<!-- pivot:start -->
 | Language | Native | English pivot | Gain | Holm p |
 |---|---|---|---|---|
 | Turkish | 0.54 | 0.78 | +0.24 | 0.011 |
@@ -143,17 +150,20 @@ Every Wikipedia API response is cached, so a run can be repeated against the sam
 | Swahili | 0.21 | 0.69 | +0.48 | < 0.001 |
 | Yoruba | 0.05 | 0.38 | +0.32 | 0.004 |
 | Amharic | 0.05 | 0.66 | +0.60 | < 0.001 |
+<!-- pivot:end -->
 
 But a system that serves these users well does so by quietly answering from English. English Wikipedia describes passports, pensions and unemployment benefits mostly from the perspective of high-income countries, so an answer can be complete and still locally irrelevant. The pivot also relies on machine-translating the question, which is weakest for exactly these languages.
 
 **5. The domains that matter most for new internet users are the weakest.** Native coverage by domain:
 
+<!-- domains:start -->
 | Domain | EN | TR | UR | SW | YO | AM |
 |---|---|---|---|---|---|---|
 | Digital safety | 0.92 | 0.42 | 0.25 | 0.12 | 0.04 | 0.00 |
 | Education | 1.00 | 0.75 | 0.58 | 0.29 | 0.00 | 0.00 |
 | Employment | 0.96 | 0.46 | 0.54 | 0.08 | 0.00 | 0.04 |
 | Public services | 0.92 | 0.54 | 0.62 | 0.33 | 0.17 | 0.17 |
+<!-- domains:end -->
 
 ![Native coverage by domain and language](figures/fig2_domains.png)
 
@@ -178,7 +188,7 @@ These disparities arise **before generation**, so improving the language skills 
 * **Wikipedia is one knowledge source.** Government portals and local news may cover these topics better in some languages.
 * **The needs are general, not country-specific.** This keeps the facts language-independent, but it underestimates the local-relevance problem.
 * **LaBSE similarity is a proxy for factual entailment**, and its reliability is probably lower for low-resource languages.
-* **Small scale:** 6 languages and 32 needs, so language-level correlations are indicative only.
+* **Small scale:** 8 languages and 32 needs, so language-level correlations are indicative only.
 
 ## Future work
 
@@ -206,7 +216,8 @@ linguaparity/
 │   ├── 02_translate.py            # questions + translation quality
 │   ├── 03_retrieve.py             # stage 2: native / pivot / mixed retrieval
 │   ├── 04_evidence_eval.py        # stages 3 to 5: coverage, EN share, tokens
-│   └── 05_analyze.py              # tables, tests, figures
+│   ├── 05_analyze.py              # tables, tests, figures
+│   └── 06_readme_tables.py        # regenerates README tables from results/
 ├── results/                       # all intermediate and final results (JSON/CSV)
 ├── figures/                       # paper figures
 └── paper/
@@ -236,10 +247,11 @@ python scripts/02_translate.py
 python scripts/03_retrieve.py
 python scripts/04_evidence_eval.py
 python scripts/05_analyze.py
+python scripts/06_readme_tables.py
 python paper/build_paper.py path/to/ICAAD26_Full_Paper_Template.docx
 ```
 
-Wikipedia is live, so a fresh run reflects the editions on the day you run it. Responses are cached under `data/cache/` after the first run.
+Stages 2 to 4 are incremental: languages that already have results are reused unchanged, so adding a language to `linguaparity/config.py` only computes the new one. Wikipedia is live, so a fresh run reflects the editions on the day you run it. Responses are cached under `data/cache/` after the first run.
 
 ## Citation
 
