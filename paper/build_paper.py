@@ -39,6 +39,22 @@ def p_fmt(p):
 
 exists = {l: int(round(L.loc[l, "article_exists"] * 32)) for l in LANG_CODES}
 low = ["sw", "yo", "am"]
+NUM = {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten"}
+n_lang = NUM.get(len(LANG_CODES), str(len(LANG_CODES)))
+n_other = NUM.get(len(LANG_CODES) - 1, str(len(LANG_CODES) - 1))
+names = [L.loc[l, "name"] for l in LANG_CODES]
+
+
+def join(items):
+    items = list(items)
+    return items[0] if len(items) == 1 else ", ".join(items[:-1]) + " and " + items[-1]
+
+
+by_class = {}
+for l in LANG_CODES:
+    by_class.setdefault(int(L.loc[l, "joshi"]), []).append(L.loc[l, "name"])
+class_text = join(f"{join(v)} ({k})" for k, v in sorted(by_class.items(), reverse=True))
+european = [l for l in ("es", "nl") if l in LANG_CODES]
 low_native = L.loc[low, "native_cov"].mean()
 low_pivot = L.loc[low, "pivot_cov"].mean()
 
@@ -56,11 +72,11 @@ b.abstract(
     "LinguaParity, a framework that treats multilingual AI as an information-access pipeline and measures parity at "
     "each stage: evidence availability, retrieval, evidence coverage, dependence on high-resource sources, and the "
     "token cost of expressing the same need. We built 32 parallel information needs on education, employment, public "
-    "services and digital safety, each with three verifiable key facts, and evaluated them in English, Turkish, Urdu, "
-    "Swahili, Yoruba and Amharic against the live Wikipedia editions of those languages using a model-independent "
-    "retrieval-augmented generation (RAG) retriever. "
-    f"The canonical article for a need existed in {exists['tr']} of 32 cases for Turkish, {exists['ur']} for Urdu, "
-    f"{exists['sw']} for Swahili, {exists['yo']} for Yoruba and {exists['am']} for Amharic. Native evidence covered "
+    "services and digital safety, each with three verifiable key facts, and evaluated them in "
+    f"{join(names)} against the live Wikipedia editions of those languages using a model-independent "
+    "retrieval-augmented generation (RAG) retriever. The canonical article for a need existed in "
+    + join(f"{exists[l]} of 32 cases for {L.loc[l, 'name']}" for l in LANG_CODES[1:])
+    + ". Native evidence covered "
     f"{pct(L.loc['en', 'native_cov'])} of key facts for English but {pct(low_native)} on average for the three "
     f"lowest-resource languages, while English-pivot evidence raised this to {pct(low_pivot)}. "
     f"When native and English evidence competed, English passages filled {pct(L.loc[low, 'mixed_en_share'].mean())} "
@@ -95,7 +111,7 @@ b.paragraph(
     "reports a controlled study of its evidence layer. The contributions are: (i) a stage-wise definition of parity "
     "covering evidence availability, retrieval, evidence coverage, source-language dependence and token cost; "
     "(ii) a parallel set of 32 socially relevant information needs with verifiable key facts; (iii) a measurement of "
-    "six languages, from English to Amharic, against the live Wikipedia editions that many RAG systems use as a "
+    f"{n_lang} languages, from English to Amharic, against the live Wikipedia editions that many RAG systems use as a "
     "knowledge source; and (iv) an open, reproducible implementation. The central finding is that much of the "
     "inequality is already in place before an LLM writes a single word.")
 
@@ -123,8 +139,9 @@ b.paragraph(
     "three key facts stated in that article's introduction, which serves as the gold reference. Questions are general "
     "rather than country specific, so the same facts are correct in every language.")
 b.paragraph(
-    "Six languages span the resource classes of Joshi et al. [5]: English (class 5), Turkish (4), Urdu (3), and "
-    "Swahili, Yoruba and Amharic (2). They cover Latin, Perso-Arabic and Ethiopic scripts. Questions were translated "
+    f"{n_lang.capitalize()} languages span the resource classes of Joshi et al. [5] (class in brackets): {class_text}. "
+    + (f"{join(L.loc[l, 'name'] for l in european)} serve as high-resource European reference points. " if european else "")
+    + "The languages cover Latin, Perso-Arabic and Ethiopic scripts. Questions were translated "
     "from English with NLLB-200 (distilled, 600M parameters) [17]. As a quality check, LaBSE [18] similarity between "
     f"each English question and its translation averaged between {L.loc[LANG_CODES[1:], 'mt_labse'].min():.2f} and "
     f"{L.loc[LANG_CODES[1:], 'mt_labse'].max():.2f}, and between {L.loc[LANG_CODES[1:], 'mt_roundtrip_labse'].min():.2f} "
@@ -173,7 +190,7 @@ b.paragraph(
     "separates on-topic from off-topic text and is deliberately lenient; coverage values are therefore upper bounds.")
 b.paragraph(
     "Paired differences across the 32 needs were tested with the Wilcoxon signed-rank test and Holm correction over "
-    "the five non-English languages; 95% confidence intervals are percentile bootstraps over needs (5,000 resamples). "
+    f"the {n_other} non-English languages; 95% confidence intervals are percentile bootstraps over needs (5,000 resamples). "
     "All Wikipedia responses were cached, so every number in this paper can be recomputed from the released snapshot. "
     "Everything ran on a CPU-only laptop. The code and data are available at github.com/inayatarshad/linguaparity.")
 
@@ -182,15 +199,17 @@ b.heading("3. RESULTS AND DISCUSSION")
 b.heading("3.1. Evidence Availability and Retrieval", 2)
 b.paragraph(
     "Table 1 summarises the pipeline for each language. Availability falls steeply with resource level: the canonical "
-    f"article existed for all 32 needs in English, {exists['tr']} in Turkish, {exists['ur']} in Urdu, {exists['sw']} "
-    f"in Swahili, {exists['yo']} in Yoruba and {exists['am']} in Amharic. Where articles existed they were much shorter "
+    "article existed for all 32 needs in English, "
+    + join(f"{exists[l]} in {L.loc[l, 'name']}" for l in LANG_CODES[1:])
+    + f". Where articles existed they were much shorter "
     f"than their English counterparts (mean size ratio {f2(L.loc['tr', 'bytes_ratio'])} for Turkish and "
     f"{f2(L.loc['ur', 'bytes_ratio'])} for Urdu, counting missing articles as zero). Raw edition size is a poor proxy "
     f"for availability: Urdu Wikipedia has about as many articles as Turkish ({L.loc['ur', 'wiki_articles']:,} against "
     f"{L.loc['tr', 'wiki_articles']:,}) yet covers far fewer of these needs, which suggests that many of its pages do "
     "not address everyday social topics. Retrieval tracks availability: the canonical article reached the native top 3 "
-    f"for {pct(L.loc['en', 'native_hit3'])} of English needs, {pct(L.loc['tr', 'native_hit3'])} of Turkish, "
-    f"{pct(L.loc['ur', 'native_hit3'])} of Urdu and {pct(L.loc['sw', 'native_hit3'])} of Swahili needs.")
+    "for "
+    + join(f"{pct(L.loc[l, 'native_hit3'])} of {L.loc[l, 'name']}" for l in LANG_CODES)
+    + " needs.")
 
 b.caption("Table 1.", "Stage-wise results per language (32 needs). Cov. = key-fact coverage of top-3 evidence; "
           "EN share = English passages in mixed top 3; Tok. = Qwen2.5 tokens relative to English.")
@@ -255,12 +274,12 @@ b.paragraph(
     "nonetheless bound what any RAG-based answer can contain. Questions were machine translated, Wikipedia is only "
     "one possible knowledge source, the needs are general rather than country specific, and LaBSE similarity is a "
     "proxy for factual entailment whose reliability is itself likely to be lower for low-resource languages. "
-    "The study covers six languages and 32 needs, so language-level correlations are indicative only.")
+    f"The study covers {n_lang} languages and 32 needs, so language-level correlations are indicative only.")
 
 # ---------------- 4. Conclusion ----------------
 b.heading("4. CONCLUSION")
 b.paragraph(
-    "LinguaParity reframes multilingual AI evaluation as a question of information access. Across six languages and "
+    f"LinguaParity reframes multilingual AI evaluation as a question of information access. Across {n_lang} languages and "
     "32 socially relevant needs, the evidence that a retrieval-augmented assistant could draw on shrank sharply with "
     "resource level, from full availability in English to almost none in Yoruba and Amharic, and retrieval and "
     "coverage followed. English sources closed much of the gap, but only by making low-resource users dependent on "
