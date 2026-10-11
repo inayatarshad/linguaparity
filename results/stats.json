@@ -121,14 +121,14 @@
    "y": "native_coverage",
    "rho": 0.9639253854237598,
    "p": 0.00011421419825780712,
-   "n": 6
+   "n": 8
   },
   {
    "x": "article_exists_rate",
    "y": "native_coverage",
    "rho": 0.9394111922831737,
    "p": 0.0005310925211357724,
-   "n": 6
+   "n": 8
   }
  ],
  "domain_native_coverage": {

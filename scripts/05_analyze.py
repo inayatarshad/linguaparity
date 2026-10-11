@@ -81,9 +81,9 @@ m = m[m.lang != "en"]
 rho, p = stats.spearmanr(m.exists.astype(float), m["native"])
 out["spearman"].append({"x": "article_exists", "y": "native_coverage", "rho": float(rho), "p": float(p), "n": len(m)})
 rho, p = stats.spearmanr(np.log10(lang_df.wiki_articles), lang_df.native_cov)
-out["spearman"].append({"x": "log10_wiki_articles", "y": "native_coverage", "rho": float(rho), "p": float(p), "n": 6})
+out["spearman"].append({"x": "log10_wiki_articles", "y": "native_coverage", "rho": float(rho), "p": float(p), "n": len(lang_df)})
 rho, p = stats.spearmanr(lang_df.article_exists, lang_df.native_cov)
-out["spearman"].append({"x": "article_exists_rate", "y": "native_coverage", "rho": float(rho), "p": float(p), "n": 6})
+out["spearman"].append({"x": "article_exists_rate", "y": "native_coverage", "rho": float(rho), "p": float(p), "n": len(lang_df)})
 dom = cov.groupby(["domain", "lang"])["native"].mean().unstack()[LANG_CODES]
 out["domain_native_coverage"] = dom.round(3).to_dict()
 write_json(RESULTS / "stats.json", out)
