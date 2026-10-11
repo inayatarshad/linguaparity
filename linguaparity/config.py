@@ -11,6 +11,8 @@ CACHE = DATA / "cache"
 # from Joshi et al. (2020), 5 = winners ... 0 = left-behinds.
 LANGUAGES = {
     "en": {"name": "English", "nllb": "eng_Latn", "joshi": 5},
+    "es": {"name": "Spanish", "nllb": "spa_Latn", "joshi": 5},
+    "nl": {"name": "Dutch", "nllb": "nld_Latn", "joshi": 4},
     "tr": {"name": "Turkish", "nllb": "tur_Latn", "joshi": 4},
     "ur": {"name": "Urdu", "nllb": "urd_Arab", "joshi": 3},
     "sw": {"name": "Swahili", "nllb": "swh_Latn", "joshi": 2},
