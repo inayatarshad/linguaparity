@@ -23,6 +23,14 @@
   "am": {
    "q": "ፊሽንግ ምንድን ነው? ጥቃት ፈላጊዎች ከሰዎች ምን ለማግኘት ይሞክራሉ?",
    "bt": "What is fishing, and what do attackers try to get from people?"
+  },
+  "es": {
+   "q": "¿Qué es el phishing y qué intentan obtener los atacantes de la gente?",
+   "bt": "What is phishing and what are the attackers trying to get from people?"
+  },
+  "nl": {
+   "q": "Wat is phishing en wat proberen aanvallers van mensen te krijgen?",
+   "bt": "What is phishing and what are attackers trying to get from people?"
   }
  },
  "DS02": {
@@ -49,6 +57,14 @@
   "am": {
    "q": "የሁለት-አካላዊ ማረጋገጫ ምንድን ነው? ጠቃሚ የሆነው ለምንድን ነው?",
    "bt": "What is a two-body affirmation, and why is it helpful?"
+  },
+  "es": {
+   "q": "¿Qué es la autenticación de dos factores y por qué es útil?",
+   "bt": "What is two-factor authentication, and why is it useful?"
+  },
+  "nl": {
+   "q": "Wat is tweefaktor-authenticatie en waarom is deze nuttig?",
+   "bt": "What is two-factor authentication, and why is it useful?"
   }
  },
  "DS03": {
@@ -75,6 +91,14 @@
   "am": {
    "q": "የቤዛ ማመንጫ ሶፍትዌር ምንድን ነው?",
    "bt": "What is the ransom software?"
+  },
+  "es": {
+   "q": "¿Qué es el ransomware y cómo perjudica a las víctimas?",
+   "bt": "What is ransomware and how does it harm victims?"
+  },
+  "nl": {
+   "q": "Wat is ransomware en hoe kan het slachtoffers schaden?",
+   "bt": "What is ransomware and how can it harm victims?"
   }
  },
  "DS04": {
@@ -100,6 +124,14 @@
   },
   "am": {
    "q": "ማልዌር ምንድን ነው?",
+   "bt": "What is malware?"
+  },
+  "es": {
+   "q": "¿Qué es el malware?",
+   "bt": "What is malware?"
+  },
+  "nl": {
+   "q": "Wat is malware?",
    "bt": "What is malware?"
   }
  },
@@ -127,6 +159,14 @@
   "am": {
    "q": "ማንነት ስርቆት ምንድን ነው?",
    "bt": "What is identity theft?"
+  },
+  "es": {
+   "q": "¿Qué es el robo de identidad?",
+   "bt": "What is identity theft?"
+  },
+  "nl": {
+   "q": "Wat is identiteitsdiefstal?",
+   "bt": "What is identity theft?"
   }
  },
  "DS06": {
@@ -153,6 +193,14 @@
   "am": {
    "q": "የሳይበር ማጉደል ምንድን ነው?",
    "bt": "What is cyberbullying?"
+  },
+  "es": {
+   "q": "¿Qué es el acoso cibernético y quiénes son los más afectados por él?",
+   "bt": "What is cyberbullying and who are most affected by it?"
+  },
+  "nl": {
+   "q": "Wat is cyberpesten en wie wordt er het meest door getroffen?",
+   "bt": "What is cyberbullying and who is most affected by it?"
   }
  },
  "DS07": {
@@ -178,6 +226,14 @@
   },
   "am": {
    "q": "የይለፍ ቃል ጠንካራ እንዲሆን የሚያደርገው ምንድን ነው?",
+   "bt": "What makes a password strong?"
+  },
+  "es": {
+   "q": "¿Qué hace que una contraseña sea fuerte?",
+   "bt": "What makes a password strong?"
+  },
+  "nl": {
+   "q": "Wat maakt een wachtwoord sterk?",
    "bt": "What makes a password strong?"
   }
  },
@@ -205,6 +261,14 @@
   "am": {
    "q": "የቅድመ ክፍያ ማጭበርበር ምንድን ነው?",
    "bt": "What is a prepaid fraud?"
+  },
+  "es": {
+   "q": "¿Qué es una estafa de pago anticipado?",
+   "bt": "What is an advance payment scam?"
+  },
+  "nl": {
+   "q": "Wat is een opzetbedrog?",
+   "bt": "What is a deliberate deception?"
   }
  },
  "ED01": {
@@ -231,6 +295,14 @@
   "am": {
    "q": "ምንድነው? ተማሪዎቹስ ሊከፍሉት ይገባል?",
    "bt": "What is it? And should the students pay?"
+  },
+  "es": {
+   "q": "¿Qué es una beca y los estudiantes tienen que pagarla?",
+   "bt": "What is a scholarship and students have to pay it?"
+  },
+  "nl": {
+   "q": "Wat is een beurs en moeten studenten het terugbetalen?",
+   "bt": "What is a scholarship and do students have to pay it back?"
   }
  },
  "ED02": {
@@ -257,6 +329,14 @@
   "am": {
    "q": "የርቀት ትምህርት ምንድን ነው?",
    "bt": "What is a distance learning?"
+  },
+  "es": {
+   "q": "¿Qué es la educación a distancia?",
+   "bt": "What is distance education?"
+  },
+  "nl": {
+   "q": "Wat is afstandsonderwijs?",
+   "bt": "What is distance learning?"
   }
  },
  "ED03": {
@@ -283,6 +363,14 @@
   "am": {
    "q": "ማንበብና መጻፍ ምን ማለት ነው?",
    "bt": "What does reading and writing mean?"
+  },
+  "es": {
+   "q": "¿Qué significa alfabetizar?",
+   "bt": "What does it mean to be literate?"
+  },
+  "nl": {
+   "q": "Wat betekent geletterd zijn?",
+   "bt": "What does it mean to be literate?"
   }
  },
  "ED04": {
@@ -309,6 +397,14 @@
   "am": {
    "q": "የሙያ ትምህርት ምንድን ነው?",
    "bt": "What is a vocational training?"
+  },
+  "es": {
+   "q": "¿Qué es la educación profesional?",
+   "bt": "What is vocational education?"
+  },
+  "nl": {
+   "q": "Wat is beroepsonderwijs?",
+   "bt": "What is vocational education?"
   }
  },
  "ED05": {
@@ -335,6 +431,14 @@
   "am": {
    "q": "የተማሪ ብድር ምንድን ነው? ለየትኛው ጥቅም ላይ ሊውል ይችላል?",
    "bt": "What is a student loan, and for what use?"
+  },
+  "es": {
+   "q": "¿Qué es un préstamo estudiantil y para qué se puede utilizar?",
+   "bt": "What is a student loan and what can it be used for?"
+  },
+  "nl": {
+   "q": "Wat is een studentenlening en waar kan deze voor worden gebruikt?",
+   "bt": "What is a student loan and what can it be used for?"
   }
  },
  "ED06": {
@@ -361,6 +465,14 @@
   "am": {
    "q": "ግዴታ ያለው ትምህርት ምንድን ነው?",
    "bt": "What Is Compulsory Education?"
+  },
+  "es": {
+   "q": "¿Qué es la educación obligatoria?",
+   "bt": "What is compulsory education?"
+  },
+  "nl": {
+   "q": "Wat is verplicht onderwijs?",
+   "bt": "What is compulsory education?"
   }
  },
  "ED07": {
@@ -386,6 +498,14 @@
   },
   "am": {
    "q": "የባችለር ዲግሪ ምንድን ነው? ምን ያህል ጊዜ ይወስዳል?",
+   "bt": "What is a bachelor's degree and how long does it take?"
+  },
+  "es": {
+   "q": "¿Qué es un título de licenciatura y cuánto tiempo lleva?",
+   "bt": "What's a bachelor's degree and how long does it take?"
+  },
+  "nl": {
+   "q": "Wat is een bachelordiploma en hoe lang duurt het?",
    "bt": "What is a bachelor's degree and how long does it take?"
   }
  },
@@ -413,6 +533,14 @@
   "am": {
    "q": "የቤት ውስጥ ትምህርት ምንድን ነው? ብዙውን ጊዜ ልጆችን የሚያስተምረው ማን ነው?",
    "bt": "What is home schooling, and who usually teaches children?"
+  },
+  "es": {
+   "q": "¿Qué es la educación en el hogar y quién suele enseñar a los niños?",
+   "bt": "What is home education, and who usually teaches children?"
+  },
+  "nl": {
+   "q": "Wat is huisonderwijs en wie leert de kinderen het meestal?",
+   "bt": "What is home schooling, and who usually teaches the children?"
   }
  },
  "EM01": {
@@ -439,6 +567,14 @@
   "am": {
    "q": "ዝቅተኛ ደመወዝ ምንድን ነው?",
    "bt": "What is the minimum wage?"
+  },
+  "es": {
+   "q": "¿Cuál es el salario mínimo?",
+   "bt": "What's the minimum wage?"
+  },
+  "nl": {
+   "q": "Wat is een minimumloon?",
+   "bt": "What's the minimum wage?"
   }
  },
  "EM02": {
@@ -465,6 +601,14 @@
   "am": {
    "q": "የሥራ አጥነት ማበልጸጊያ ምንድን ነው? ማን ሊያገኝ ይችላል?",
    "bt": "What is unemployment, and who can benefit?"
+  },
+  "es": {
+   "q": "¿Qué son los beneficios por desempleo y quiénes pueden recibirlos?",
+   "bt": "What are unemployment benefits and who can receive them?"
+  },
+  "nl": {
+   "q": "Wat zijn werkloosheidsvergoedingen en wie kunnen deze ontvangen?",
+   "bt": "What are unemployment benefits and who can receive them?"
   }
  },
  "EM03": {
@@ -491,6 +635,14 @@
   "am": {
    "q": "የሠራተኛ ማህበር ምንድን ነው? ለሠራተኞችስ ምን ያደርጋል?",
    "bt": "What is a labor union, and what does it do for workers?"
+  },
+  "es": {
+   "q": "¿Qué es un sindicato y qué hace para los trabajadores?",
+   "bt": "What is a union and what does it do for workers?"
+  },
+  "nl": {
+   "q": "Wat is een vakbond en wat doet het voor de werknemers?",
+   "bt": "What is a union and what does it do for the workers?"
   }
  },
  "EM04": {
@@ -517,6 +669,14 @@
   "am": {
    "q": "የህይወት ታሪክ ምንድን ነው?",
    "bt": "What is the biography?"
+  },
+  "es": {
+   "q": "¿Qué es un currículum y qué debe contener?",
+   "bt": "What is a resume and what should it contain?"
+  },
+  "nl": {
+   "q": "Wat is een cv en wat moet er in zitten?",
+   "bt": "What's a resume and what should it say?"
   }
  },
  "EM05": {
@@ -542,6 +702,14 @@
   },
   "am": {
    "q": "የሥራ ውል ምንድን ነው?",
+   "bt": "What is a contract of employment?"
+  },
+  "es": {
+   "q": "¿Qué es un contrato de trabajo?",
+   "bt": "What's a contract of employment?"
+  },
+  "nl": {
+   "q": "Wat is een arbeidsovereenkomst?",
    "bt": "What is a contract of employment?"
   }
  },
@@ -569,6 +737,14 @@
   "am": {
    "q": "የልጆች ሥራ ምንድን ነው?",
    "bt": "What is the role of children?"
+  },
+  "es": {
+   "q": "¿Qué es el trabajo infantil?",
+   "bt": "What is child labour?"
+  },
+  "nl": {
+   "q": "Wat is kinderarbeid?",
+   "bt": "What is child labor?"
   }
  },
  "EM07": {
@@ -595,6 +771,14 @@
   "am": {
    "q": "በሥራ ላይ ደህንነት እና ጤና ምንድን ነው?",
    "bt": "What is safety and health at work?"
+  },
+  "es": {
+   "q": "¿Qué es la seguridad y la salud en el trabajo?",
+   "bt": "What is occupational safety and health?"
+  },
+  "nl": {
+   "q": "Wat is veiligheid en gezondheid op het werk?",
+   "bt": "What is occupational safety and health?"
   }
  },
  "EM08": {
@@ -621,6 +805,14 @@
   "am": {
    "q": "ጡረታ ምንድን ነው?",
    "bt": "What is a pension?"
+  },
+  "es": {
+   "q": "¿Qué es una pensión?",
+   "bt": "What's a pension?"
+  },
+  "nl": {
+   "q": "Wat is een pensioen?",
+   "bt": "What's a pension?"
   }
  },
  "PS01": {
@@ -647,6 +839,14 @@
   "am": {
    "q": "ፓስፖርት ምንድን ነው?",
    "bt": "What is a passport?"
+  },
+  "es": {
+   "q": "¿Qué es un pasaporte y para qué se utiliza?",
+   "bt": "What is a passport and what is it used for?"
+  },
+  "nl": {
+   "q": "Wat is een paspoort en waar wordt het voor gebruikt?",
+   "bt": "What is a passport and what is it used for?"
   }
  },
  "PS02": {
@@ -673,6 +873,14 @@
   "am": {
    "q": "የልደት የምስክር ወረቀት ምንድን ነው?",
    "bt": "What is a birth certificate?"
+  },
+  "es": {
+   "q": "¿Qué es un certificado de nacimiento?",
+   "bt": "What is a birth certificate?"
+  },
+  "nl": {
+   "q": "Wat is een geboortesertifikaat?",
+   "bt": "What's a birth certificate?"
   }
  },
  "PS03": {
@@ -699,6 +907,14 @@
   "am": {
    "q": "ክትባት ምንድን ነው? ሰዎችን የሚጠብቀው እንዴት ነው?",
    "bt": "What is a vaccine, and how does it protect people?"
+  },
+  "es": {
+   "q": "¿Qué es la vacunación y cómo protege a las personas?",
+   "bt": "What is vaccination and how does it protect people?"
+  },
+  "nl": {
+   "q": "Wat is vaccinatie en hoe beschermt het mensen?",
+   "bt": "What is vaccination, and how does it protect people?"
   }
  },
  "PS04": {
@@ -724,6 +940,14 @@
   },
   "am": {
    "q": "መታወቂያ ምንድን ነው?",
+   "bt": "What is an ID?"
+  },
+  "es": {
+   "q": "¿Qué es un documento de identidad?",
+   "bt": "What is an identity card?"
+  },
+  "nl": {
+   "q": "Wat is een identiteitsdocument?",
    "bt": "What is an ID?"
   }
  },
@@ -751,6 +975,14 @@
   "am": {
    "q": "ከመንግስት ማህበራዊ ድጋፍን ምን ማለት ነው?",
    "bt": "What does social support from the government mean?"
+  },
+  "es": {
+   "q": "¿Qué es el apoyo social del gobierno?",
+   "bt": "What is government social support?"
+  },
+  "nl": {
+   "q": "Wat is de sociale steun van de overheid?",
+   "bt": "What is the government's social support?"
   }
  },
  "PS06": {
@@ -776,6 +1008,14 @@
   },
   "am": {
    "q": "ዓለም አቀፍ የጤና እንክብካቤ ምንድን ነው?",
+   "bt": "What is universal health care?"
+  },
+  "es": {
+   "q": "¿Qué es la atención médica universal?",
+   "bt": "What is universal health care?"
+  },
+  "nl": {
+   "q": "Wat is universele gezondheidszorg?",
    "bt": "What is universal health care?"
   }
  },
@@ -803,6 +1043,14 @@
   "am": {
    "q": "የምርጫ ምዝገባ ምንድን ነው?",
    "bt": "What is voting registration?"
+  },
+  "es": {
+   "q": "¿Qué es el registro de votantes?",
+   "bt": "What's the voter registration?"
+  },
+  "nl": {
+   "q": "Wat is kiezersregistratie?",
+   "bt": "What is voter registration?"
   }
  },
  "PS08": {
@@ -828,6 +1076,14 @@
   },
   "am": {
    "q": "የገቢ ግብር ምንድን ነው?",
+   "bt": "What is income tax?"
+  },
+  "es": {
+   "q": "¿Qué es el impuesto sobre la renta?",
+   "bt": "What is income tax?"
+  },
+  "nl": {
+   "q": "Wat is inkomstenbelasting?",
    "bt": "What is income tax?"
   }
  }

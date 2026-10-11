@@ -18,5 +18,13 @@
  "am": {
   "labse_en_vs_l": 0.8502730131149292,
   "labse_en_vs_backtranslation": 0.9005697965621948
+ },
+ "es": {
+  "labse_en_vs_l": 0.9300675392150879,
+  "labse_en_vs_backtranslation": 0.9856585264205933
+ },
+ "nl": {
+  "labse_en_vs_l": 0.9068335294723511,
+  "labse_en_vs_backtranslation": 0.9732179045677185
  }
 }

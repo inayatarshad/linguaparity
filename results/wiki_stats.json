@@ -5,6 +5,18 @@
   "nllb": "eng_Latn",
   "joshi": 5
  },
+ "es": {
+  "articles": 2142571,
+  "name": "Spanish",
+  "nllb": "spa_Latn",
+  "joshi": 5
+ },
+ "nl": {
+  "articles": 2229079,
+  "name": "Dutch",
+  "nllb": "nld_Latn",
+  "joshi": 4
+ },
  "tr": {
   "articles": 702205,
   "name": "Turkish",

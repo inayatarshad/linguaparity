@@ -11,6 +11,24 @@
  {
   "id": "DS01",
   "domain": "digital_safety",
+  "lang": "es",
+  "title": "Phishing",
+  "exists": true,
+  "bytes": 56253,
+  "bytes_ratio_to_en": 0.947259408941652
+ },
+ {
+  "id": "DS01",
+  "domain": "digital_safety",
+  "lang": "nl",
+  "title": "Phishing",
+  "exists": true,
+  "bytes": 21897,
+  "bytes_ratio_to_en": 0.3687294771406921
+ },
+ {
+  "id": "DS01",
+  "domain": "digital_safety",
   "lang": "tr",
   "title": "Yemleme",
   "exists": true,
@@ -61,6 +79,24 @@
   "exists": true,
   "bytes": 54468,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS02",
+  "domain": "digital_safety",
+  "lang": "es",
+  "title": "Autenticación de múltiples factores",
+  "exists": true,
+  "bytes": 16568,
+  "bytes_ratio_to_en": 0.30417860027906296
+ },
+ {
+  "id": "DS02",
+  "domain": "digital_safety",
+  "lang": "nl",
+  "title": "Multifactorauthenticatie",
+  "exists": true,
+  "bytes": 2427,
+  "bytes_ratio_to_en": 0.04455827274730117
  },
  {
   "id": "DS02",
@@ -119,6 +155,24 @@
  {
   "id": "DS03",
   "domain": "digital_safety",
+  "lang": "es",
+  "title": "Ransomware",
+  "exists": true,
+  "bytes": 30791,
+  "bytes_ratio_to_en": 0.2761301778331794
+ },
+ {
+  "id": "DS03",
+  "domain": "digital_safety",
+  "lang": "nl",
+  "title": "Ransomware",
+  "exists": true,
+  "bytes": 13905,
+  "bytes_ratio_to_en": 0.12469845483324216
+ },
+ {
+  "id": "DS03",
+  "domain": "digital_safety",
   "lang": "tr",
   "title": "Fidye virüsü",
   "exists": true,
@@ -169,6 +223,24 @@
   "exists": true,
   "bytes": 75462,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS04",
+  "domain": "digital_safety",
+  "lang": "es",
+  "title": "Malware",
+  "exists": true,
+  "bytes": 78034,
+  "bytes_ratio_to_en": 1.0340833797142932
+ },
+ {
+  "id": "DS04",
+  "domain": "digital_safety",
+  "lang": "nl",
+  "title": "Malware",
+  "exists": true,
+  "bytes": 2520,
+  "bytes_ratio_to_en": 0.03339429116641488
  },
  {
   "id": "DS04",
@@ -227,6 +299,24 @@
  {
   "id": "DS05",
   "domain": "digital_safety",
+  "lang": "es",
+  "title": "Robo de identidad",
+  "exists": true,
+  "bytes": 13294,
+  "bytes_ratio_to_en": 0.18072321914083742
+ },
+ {
+  "id": "DS05",
+  "domain": "digital_safety",
+  "lang": "nl",
+  "title": "Identiteitsfraude",
+  "exists": true,
+  "bytes": 8888,
+  "bytes_ratio_to_en": 0.12082653616095704
+ },
+ {
+  "id": "DS05",
+  "domain": "digital_safety",
   "lang": "tr",
   "title": "Kimlik hırsızlığı",
   "exists": true,
@@ -277,6 +367,24 @@
   "exists": true,
   "bytes": 143550,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS06",
+  "domain": "digital_safety",
+  "lang": "es",
+  "title": "Ciberacoso",
+  "exists": true,
+  "bytes": 70389,
+  "bytes_ratio_to_en": 0.4903448275862069
+ },
+ {
+  "id": "DS06",
+  "domain": "digital_safety",
+  "lang": "nl",
+  "title": "Cyberpesten",
+  "exists": true,
+  "bytes": 5639,
+  "bytes_ratio_to_en": 0.039282479972135145
  },
  {
   "id": "DS06",
@@ -335,6 +443,24 @@
  {
   "id": "DS07",
   "domain": "digital_safety",
+  "lang": "es",
+  "title": "Seguridad de la contraseña",
+  "exists": true,
+  "bytes": 61444,
+  "bytes_ratio_to_en": 0.956505495189763
+ },
+ {
+  "id": "DS07",
+  "domain": "digital_safety",
+  "lang": "nl",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "DS07",
+  "domain": "digital_safety",
   "lang": "tr",
   "title": null,
   "exists": false,
@@ -385,6 +511,24 @@
   "exists": true,
   "bytes": 92737,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "DS08",
+  "domain": "digital_safety",
+  "lang": "es",
+  "title": "Estafa nigeriana",
+  "exists": true,
+  "bytes": 24360,
+  "bytes_ratio_to_en": 0.26267832688139575
+ },
+ {
+  "id": "DS08",
+  "domain": "digital_safety",
+  "lang": "nl",
+  "title": "Nigeriaanse oplichting",
+  "exists": true,
+  "bytes": 9534,
+  "bytes_ratio_to_en": 0.10280686241737387
  },
  {
   "id": "DS08",
@@ -443,6 +587,24 @@
  {
   "id": "ED01",
   "domain": "education",
+  "lang": "es",
+  "title": "Beca",
+  "exists": true,
+  "bytes": 28562,
+  "bytes_ratio_to_en": 1.0235441677118795
+ },
+ {
+  "id": "ED01",
+  "domain": "education",
+  "lang": "nl",
+  "title": "Beurs (geldsom)",
+  "exists": true,
+  "bytes": 1906,
+  "bytes_ratio_to_en": 0.06830317147464612
+ },
+ {
+  "id": "ED01",
+  "domain": "education",
   "lang": "tr",
   "title": "Burs",
   "exists": true,
@@ -493,6 +655,24 @@
   "exists": true,
   "bytes": 88636,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED02",
+  "domain": "education",
+  "lang": "es",
+  "title": "Educación a distancia",
+  "exists": true,
+  "bytes": 35359,
+  "bytes_ratio_to_en": 0.3989236878920529
+ },
+ {
+  "id": "ED02",
+  "domain": "education",
+  "lang": "nl",
+  "title": "Afstandsonderwijs",
+  "exists": true,
+  "bytes": 2920,
+  "bytes_ratio_to_en": 0.03294372489733291
  },
  {
   "id": "ED02",
@@ -551,6 +731,24 @@
  {
   "id": "ED03",
   "domain": "education",
+  "lang": "es",
+  "title": "Alfabetización",
+  "exists": true,
+  "bytes": 41261,
+  "bytes_ratio_to_en": 0.22053030748427302
+ },
+ {
+  "id": "ED03",
+  "domain": "education",
+  "lang": "nl",
+  "title": "Geletterdheid",
+  "exists": true,
+  "bytes": 12900,
+  "bytes_ratio_to_en": 0.06894745562509687
+ },
+ {
+  "id": "ED03",
+  "domain": "education",
   "lang": "tr",
   "title": "Okuryazarlık",
   "exists": true,
@@ -601,6 +799,24 @@
   "exists": true,
   "bytes": 129960,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED04",
+  "domain": "education",
+  "lang": "es",
+  "title": "Formación profesional",
+  "exists": true,
+  "bytes": 14981,
+  "bytes_ratio_to_en": 0.11527393044013542
+ },
+ {
+  "id": "ED04",
+  "domain": "education",
+  "lang": "nl",
+  "title": "Beroepsopleiding",
+  "exists": true,
+  "bytes": 1865,
+  "bytes_ratio_to_en": 0.014350569405971068
  },
  {
   "id": "ED04",
@@ -659,6 +875,24 @@
  {
   "id": "ED05",
   "domain": "education",
+  "lang": "es",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED05",
+  "domain": "education",
+  "lang": "nl",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "ED05",
+  "domain": "education",
   "lang": "tr",
   "title": "Öğrenci kredisi",
   "exists": true,
@@ -709,6 +943,24 @@
   "exists": true,
   "bytes": 65596,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED06",
+  "domain": "education",
+  "lang": "es",
+  "title": "Educación obligatoria",
+  "exists": true,
+  "bytes": 8293,
+  "bytes_ratio_to_en": 0.12642539179218246
+ },
+ {
+  "id": "ED06",
+  "domain": "education",
+  "lang": "nl",
+  "title": "Leerplicht",
+  "exists": true,
+  "bytes": 29663,
+  "bytes_ratio_to_en": 0.45220745167388254
  },
  {
   "id": "ED06",
@@ -767,6 +1019,24 @@
  {
   "id": "ED07",
   "domain": "education",
+  "lang": "es",
+  "title": "Título de grado",
+  "exists": true,
+  "bytes": 10416,
+  "bytes_ratio_to_en": 0.08348695917026018
+ },
+ {
+  "id": "ED07",
+  "domain": "education",
+  "lang": "nl",
+  "title": "Bachelor",
+  "exists": true,
+  "bytes": 23271,
+  "bytes_ratio_to_en": 0.1865231400586717
+ },
+ {
+  "id": "ED07",
+  "domain": "education",
   "lang": "tr",
   "title": "Lisans derecesi",
   "exists": true,
@@ -817,6 +1087,24 @@
   "exists": true,
   "bytes": 91093,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "ED08",
+  "domain": "education",
+  "lang": "es",
+  "title": "Educación en el hogar",
+  "exists": true,
+  "bytes": 44349,
+  "bytes_ratio_to_en": 0.48685409416749914
+ },
+ {
+  "id": "ED08",
+  "domain": "education",
+  "lang": "nl",
+  "title": "Thuisonderwijs",
+  "exists": true,
+  "bytes": 11027,
+  "bytes_ratio_to_en": 0.12105211157827714
  },
  {
   "id": "ED08",
@@ -875,6 +1163,24 @@
  {
   "id": "EM01",
   "domain": "employment",
+  "lang": "es",
+  "title": "Salario mínimo",
+  "exists": true,
+  "bytes": 112544,
+  "bytes_ratio_to_en": 0.721630182485028
+ },
+ {
+  "id": "EM01",
+  "domain": "employment",
+  "lang": "nl",
+  "title": "Minimumloon",
+  "exists": true,
+  "bytes": 28877,
+  "bytes_ratio_to_en": 0.18515882481180831
+ },
+ {
+  "id": "EM01",
+  "domain": "employment",
   "lang": "tr",
   "title": "Asgari ücret",
   "exists": true,
@@ -925,6 +1231,24 @@
   "exists": true,
   "bytes": 98931,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM02",
+  "domain": "employment",
+  "lang": "es",
+  "title": "Seguro de desempleo",
+  "exists": true,
+  "bytes": 4730,
+  "bytes_ratio_to_en": 0.047811100666120834
+ },
+ {
+  "id": "EM02",
+  "domain": "employment",
+  "lang": "nl",
+  "title": "Werkloosheidsuitkering",
+  "exists": true,
+  "bytes": 14889,
+  "bytes_ratio_to_en": 0.1504988325196349
  },
  {
   "id": "EM02",
@@ -983,6 +1307,24 @@
  {
   "id": "EM03",
   "domain": "employment",
+  "lang": "es",
+  "title": "Sindicato",
+  "exists": true,
+  "bytes": 9263,
+  "bytes_ratio_to_en": 0.10653861636666859
+ },
+ {
+  "id": "EM03",
+  "domain": "employment",
+  "lang": "nl",
+  "title": "Vakbond",
+  "exists": true,
+  "bytes": 21008,
+  "bytes_ratio_to_en": 0.24162401518201163
+ },
+ {
+  "id": "EM03",
+  "domain": "employment",
   "lang": "tr",
   "title": "İşçi sendikası",
   "exists": true,
@@ -1033,6 +1375,24 @@
   "exists": true,
   "bytes": 22428,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM04",
+  "domain": "employment",
+  "lang": "es",
+  "title": "Résumé",
+  "exists": true,
+  "bytes": 1528,
+  "bytes_ratio_to_en": 0.06812912430889959
+ },
+ {
+  "id": "EM04",
+  "domain": "employment",
+  "lang": "nl",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
  },
  {
   "id": "EM04",
@@ -1091,6 +1451,24 @@
  {
   "id": "EM05",
   "domain": "employment",
+  "lang": "es",
+  "title": "Contrato individual de trabajo",
+  "exists": true,
+  "bytes": 14522,
+  "bytes_ratio_to_en": 0.5384501297738228
+ },
+ {
+  "id": "EM05",
+  "domain": "employment",
+  "lang": "nl",
+  "title": "Arbeidsovereenkomst",
+  "exists": true,
+  "bytes": 1191,
+  "bytes_ratio_to_en": 0.04416017797552837
+ },
+ {
+  "id": "EM05",
+  "domain": "employment",
   "lang": "tr",
   "title": "İş sözleşmesi",
   "exists": true,
@@ -1141,6 +1519,24 @@
   "exists": true,
   "bytes": 163118,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM06",
+  "domain": "employment",
+  "lang": "es",
+  "title": "Explotación infantil",
+  "exists": true,
+  "bytes": 36933,
+  "bytes_ratio_to_en": 0.22641891146286738
+ },
+ {
+  "id": "EM06",
+  "domain": "employment",
+  "lang": "nl",
+  "title": "Kinderarbeid",
+  "exists": true,
+  "bytes": 18625,
+  "bytes_ratio_to_en": 0.11418114493802033
  },
  {
   "id": "EM06",
@@ -1199,6 +1595,24 @@
  {
   "id": "EM07",
   "domain": "employment",
+  "lang": "es",
+  "title": "Seguridad y salud laboral",
+  "exists": true,
+  "bytes": 126407,
+  "bytes_ratio_to_en": 0.5746060030274242
+ },
+ {
+  "id": "EM07",
+  "domain": "employment",
+  "lang": "nl",
+  "title": "Arbeidsomstandigheden",
+  "exists": true,
+  "bytes": 2541,
+  "bytes_ratio_to_en": 0.011550577528876444
+ },
+ {
+  "id": "EM07",
+  "domain": "employment",
   "lang": "tr",
   "title": "İş sağlığı ve güvenliği",
   "exists": true,
@@ -1249,6 +1663,24 @@
   "exists": true,
   "bytes": 87509,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "EM08",
+  "domain": "employment",
+  "lang": "es",
+  "title": "Pensión",
+  "exists": true,
+  "bytes": 30270,
+  "bytes_ratio_to_en": 0.3459072781085374
+ },
+ {
+  "id": "EM08",
+  "domain": "employment",
+  "lang": "nl",
+  "title": "Pensioen",
+  "exists": true,
+  "bytes": 17464,
+  "bytes_ratio_to_en": 0.1995680444297158
  },
  {
   "id": "EM08",
@@ -1307,6 +1739,24 @@
  {
   "id": "PS01",
   "domain": "public_services",
+  "lang": "es",
+  "title": "Pasaporte",
+  "exists": true,
+  "bytes": 19313,
+  "bytes_ratio_to_en": 0.18458024313785457
+ },
+ {
+  "id": "PS01",
+  "domain": "public_services",
+  "lang": "nl",
+  "title": "Paspoort",
+  "exists": true,
+  "bytes": 23574,
+  "bytes_ratio_to_en": 0.22530392231822005
+ },
+ {
+  "id": "PS01",
+  "domain": "public_services",
   "lang": "tr",
   "title": "Pasaport",
   "exists": true,
@@ -1357,6 +1807,24 @@
   "exists": true,
   "bytes": 108801,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS02",
+  "domain": "public_services",
+  "lang": "es",
+  "title": "Certificado de nacimiento",
+  "exists": true,
+  "bytes": 31084,
+  "bytes_ratio_to_en": 0.28569590353029845
+ },
+ {
+  "id": "PS02",
+  "domain": "public_services",
+  "lang": "nl",
+  "title": "Geboorteakte",
+  "exists": true,
+  "bytes": 14278,
+  "bytes_ratio_to_en": 0.13123041148518855
  },
  {
   "id": "PS02",
@@ -1415,6 +1883,24 @@
  {
   "id": "PS03",
   "domain": "public_services",
+  "lang": "es",
+  "title": "Vacunación",
+  "exists": true,
+  "bytes": 87880,
+  "bytes_ratio_to_en": 0.874036501069173
+ },
+ {
+  "id": "PS03",
+  "domain": "public_services",
+  "lang": "nl",
+  "title": "Inenting",
+  "exists": true,
+  "bytes": 24534,
+  "bytes_ratio_to_en": 0.2440101447113233
+ },
+ {
+  "id": "PS03",
+  "domain": "public_services",
   "lang": "tr",
   "title": "Aşılama",
   "exists": true,
@@ -1465,6 +1951,24 @@
   "exists": true,
   "bytes": 196711,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS04",
+  "domain": "public_services",
+  "lang": "es",
+  "title": "Documento de identidad",
+  "exists": true,
+  "bytes": 109007,
+  "bytes_ratio_to_en": 0.5541479632557407
+ },
+ {
+  "id": "PS04",
+  "domain": "public_services",
+  "lang": "nl",
+  "title": "Identiteitsbewijs",
+  "exists": true,
+  "bytes": 8893,
+  "bytes_ratio_to_en": 0.04520845300974526
  },
  {
   "id": "PS04",
@@ -1523,6 +2027,24 @@
  {
   "id": "PS05",
   "domain": "public_services",
+  "lang": "es",
+  "title": "Bienestar social",
+  "exists": true,
+  "bytes": 31799,
+  "bytes_ratio_to_en": 0.30964506548517456
+ },
+ {
+  "id": "PS05",
+  "domain": "public_services",
+  "lang": "nl",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS05",
+  "domain": "public_services",
   "lang": "tr",
   "title": "Sosyal güvence",
   "exists": true,
@@ -1573,6 +2095,24 @@
   "exists": true,
   "bytes": 67294,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS06",
+  "domain": "public_services",
+  "lang": "es",
+  "title": "Asistencia sanitaria universal",
+  "exists": true,
+  "bytes": 8397,
+  "bytes_ratio_to_en": 0.1247808125538681
+ },
+ {
+  "id": "PS06",
+  "domain": "public_services",
+  "lang": "nl",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
  },
  {
   "id": "PS06",
@@ -1631,6 +2171,24 @@
  {
   "id": "PS07",
   "domain": "public_services",
+  "lang": "es",
+  "title": null,
+  "exists": false,
+  "bytes": 0,
+  "bytes_ratio_to_en": 0.0
+ },
+ {
+  "id": "PS07",
+  "domain": "public_services",
+  "lang": "nl",
+  "title": "Kiezersregistratie",
+  "exists": true,
+  "bytes": 3905,
+  "bytes_ratio_to_en": 0.09002881844380403
+ },
+ {
+  "id": "PS07",
+  "domain": "public_services",
   "lang": "tr",
   "title": null,
   "exists": false,
@@ -1681,6 +2239,24 @@
   "exists": true,
   "bytes": 48449,
   "bytes_ratio_to_en": 1.0
+ },
+ {
+  "id": "PS08",
+  "domain": "public_services",
+  "lang": "es",
+  "title": "Impuesto sobre la renta",
+  "exists": true,
+  "bytes": 48829,
+  "bytes_ratio_to_en": 1.0078432991393012
+ },
+ {
+  "id": "PS08",
+  "domain": "public_services",
+  "lang": "nl",
+  "title": "Inkomstenbelasting",
+  "exists": true,
+  "bytes": 14472,
+  "bytes_ratio_to_en": 0.2987058556420153
  },
  {
   "id": "PS08",
