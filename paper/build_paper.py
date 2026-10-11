@@ -235,6 +235,14 @@ b.paragraph(
         "(Wilcoxon, Holm-corrected p < 0.05)." for _ in [0])
     + f" At the level of individual needs, whether a native article existed was associated with native coverage "
     f"(Spearman ρ = {sp['article_exists']['rho']:.2f}, {p_fmt(sp['article_exists']['p'])}, n = {sp['article_exists']['n']}).")
+if european:
+    b.paragraph(
+        "The gap is not confined to low-resource languages. "
+        + join(f"{L.loc[l, 'name']} ({int(L.loc[l, 'wiki_articles']):,} articles)" for l in european)
+        + " have some of the largest Wikipedias after English, yet native evidence covered only "
+        + join(f"{pct(L.loc[l, 'native_cov'])} of key facts in {L.loc[l, 'name']}" for l in european)
+        + f", against {pct(L.loc['en', 'native_cov'])} in English. Information access is English-centric even "
+        "among well-resourced languages, and low-resource languages sit at the far end of the same gradient.")
 b.figure(FIGURES / "fig1_pipeline.png", 15.5)
 b.caption("Figure 1.", "Information-access pipeline per language: availability of the canonical article, retrieval "
           "success, key-fact coverage of native and English-pivot evidence, and the English share of a mixed ranking.")
@@ -282,7 +290,9 @@ b.paragraph(
     f"LinguaParity reframes multilingual AI evaluation as a question of information access. Across {n_lang} languages and "
     "32 socially relevant needs, the evidence that a retrieval-augmented assistant could draw on shrank sharply with "
     "resource level, from full availability in English to almost none in Yoruba and Amharic, and retrieval and "
-    "coverage followed. English sources closed much of the gap, but only by making low-resource users dependent on "
+    "coverage followed. "
+    + ("Even high-resource European languages fell well short of English. " if european else "")
+    + "English sources closed much of the gap, but only by making low-resource users dependent on "
     "content written for other contexts, while tokenization made each of their questions more expensive. Because "
     "these disparities arise before generation, improving the language skills of LLMs alone will not equalise access. "
     "Investment in local-language content on public services, employment, education and online safety, in "
