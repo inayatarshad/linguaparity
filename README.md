@@ -6,8 +6,7 @@ Code, data and results for the paper *LinguaParity: Do Multilingual LLMs Provide
 
 Inayat Arshad, Department of Computer and Information Sciences, Pakistan Institute of Engineering and Applied Sciences (PIEAS), Islamabad, Pakistan.
 
-Paper: [`paper/LinguaParity_ICAAD26_full_paper.pdf`](paper/LinguaParity_ICAAD26_full_paper.pdf) ([DOCX](paper/LinguaParity_ICAAD26_full_paper.docx))
-
+Paper: [LinguaParity: Do Multilingual LLMs Provide Equal Access to Information Across Languages?](https://www.researchgate.net/publication/415532766_LinguaParity_Do_Multilingual_LLMs_Provide_Equal_Access_to_Information_Across_Languages)
 ---
 
 ## TL;DR
